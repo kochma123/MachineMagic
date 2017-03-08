@@ -2,7 +2,6 @@ package net.kochma123.machinemagic;
 
 import net.kochma123.machinemagic.client.CreativeTab;
 import net.kochma123.machinemagic.handler.BlockHandler;
-import net.kochma123.machinemagic.handler.DimensionHandler;
 import net.kochma123.machinemagic.handler.ItemHandler;
 import net.kochma123.machinemagic.handler.RecipeHandler;
 import net.kochma123.machinemagic.proxy.CommonProxy;
