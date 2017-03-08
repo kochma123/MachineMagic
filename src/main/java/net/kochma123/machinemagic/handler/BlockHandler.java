@@ -1,5 +1,6 @@
 package net.kochma123.machinemagic.handler;
 
+import net.kochma123.machinemagic.block.BlockBase;
 import net.kochma123.machinemagic.block.BlockCropCorn;
 import net.kochma123.machinemagic.block.BlockTileEntity;
 import net.kochma123.machinemagic.block.counter.BlockCounter;
@@ -7,6 +8,7 @@ import net.kochma123.machinemagic.block.BlockOre;
 import net.kochma123.machinemagic.item.ItemModelProvider;
 import net.kochma123.machinemagic.item.ItemOreDict;
 import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -16,7 +18,11 @@ public class BlockHandler {
 	public static BlockCropCorn cropCorn;
 	public static BlockCounter counter;
 	
+	public static BlockBase n;
+	
 	public static void init() {
+		n = register(new BlockBase(Material.ROCK, "test"));
+		n.setBlockUnbreakable();
 		cropCorn = register(new BlockCropCorn(), null);
 		oreCopper = register(new BlockOre("ore_copper","oreCopper"));
 		counter = register(new BlockCounter());
