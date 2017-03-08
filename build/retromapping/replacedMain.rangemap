@@ -1,0 +1,1317 @@
+Symbol range map extraction starting
+Processing 29 files
+startProcessing "net\kochma123\machinemagic\Main.java" md5: bd585787debcd5d6adfde9b98d68d1d1
+@|net\kochma123\machinemagic\Main.java|8|34|net.kochma123.machinemagic|package|net.kochma123.machinemagic|(file)
+Class Start: net.kochma123.machinemagic.Main
+   @|net\kochma123\machinemagic\Main.java|941|944|Mod|class|net.minecraftforge.fml.common.Mod
+   @|net\kochma123\machinemagic\Main.java|945|950|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|net\kochma123\machinemagic\Main.java|953|957|Main|class|net.kochma123.machinemagic.Main
+   @|net\kochma123\machinemagic\Main.java|958|963|MODID|field|net.kochma123.machinemagic.Main|MODID
+   @|net\kochma123\machinemagic\Main.java|965|969|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|net\kochma123\machinemagic\Main.java|972|976|Main|class|net.kochma123.machinemagic.Main
+   @|net\kochma123\machinemagic\Main.java|977|984|MODNAME|field|net.kochma123.machinemagic.Main|MODNAME
+   @|net\kochma123\machinemagic\Main.java|986|993|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|net\kochma123\machinemagic\Main.java|996|1000|Main|class|net.kochma123.machinemagic.Main
+   @|net\kochma123\machinemagic\Main.java|1001|1008|VERSION|field|net.kochma123.machinemagic.Main|VERSION
+   @|net\kochma123\machinemagic\Main.java|1023|1027|Main|class|net.kochma123.machinemagic.Main
+   @|net\kochma123\machinemagic\Main.java|1052|1058|String|class|java.lang.String
+   @|net\kochma123\machinemagic\Main.java|1052|1058|String|class|java.lang.String
+   @|net\kochma123\machinemagic\Main.java|1059|1064|MODID|field|net.kochma123.machinemagic.Main|MODID|
+   @|net\kochma123\machinemagic\Main.java|1104|1110|String|class|java.lang.String
+   @|net\kochma123\machinemagic\Main.java|1104|1110|String|class|java.lang.String
+   @|net\kochma123\machinemagic\Main.java|1111|1118|MODNAME|field|net.kochma123.machinemagic.Main|MODNAME|
+   @|net\kochma123\machinemagic\Main.java|1159|1165|String|class|java.lang.String
+   @|net\kochma123\machinemagic\Main.java|1159|1165|String|class|java.lang.String
+   @|net\kochma123\machinemagic\Main.java|1166|1173|VERSION|field|net.kochma123.machinemagic.Main|VERSION|
+   @|net\kochma123\machinemagic\Main.java|1212|1217|DimID|field|net.kochma123.machinemagic.Main|DimID|
+   @|net\kochma123\machinemagic\Main.java|1261|1265|Main|class|net.kochma123.machinemagic.Main
+   @|net\kochma123\machinemagic\Main.java|1226|1238|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|net\kochma123\machinemagic\Main.java|1239|1244|MODID|field|net.kochma123.machinemagic.Main|MODID
+   @|net\kochma123\machinemagic\Main.java|1261|1265|Main|class|net.kochma123.machinemagic.Main
+   @|net\kochma123\machinemagic\Main.java|1266|1274|INSTANCE|field|net.kochma123.machinemagic.Main|INSTANCE|
+   @|net\kochma123\machinemagic\Main.java|1426|1437|CommonProxy|class|net.kochma123.machinemagic.proxy.CommonProxy
+   @|net\kochma123\machinemagic\Main.java|1278|1288|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|net\kochma123\machinemagic\Main.java|1289|1299|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|net\kochma123\machinemagic\Main.java|1350|1360|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|net\kochma123\machinemagic\Main.java|1426|1437|CommonProxy|class|net.kochma123.machinemagic.proxy.CommonProxy
+   @|net\kochma123\machinemagic\Main.java|1438|1443|proxy|field|net.kochma123.machinemagic.Main|proxy|
+   @|net\kochma123\machinemagic\Main.java|1466|1477|CreativeTab|class|net.kochma123.machinemagic.client.CreativeTab
+   @|net\kochma123\machinemagic\Main.java|1466|1477|CreativeTab|class|net.kochma123.machinemagic.client.CreativeTab
+   @|net\kochma123\machinemagic\Main.java|1478|1489|creativeTab|field|net.kochma123.machinemagic.Main|creativeTab|
+   @|net\kochma123\machinemagic\Main.java|1496|1507|CreativeTab|class|net.kochma123.machinemagic.client.CreativeTab
+   @|net\kochma123\machinemagic\Main.java|1534|1551|Item.ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|net\kochma123\machinemagic\Main.java|1534|1551|Item.ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|net\kochma123\machinemagic\Main.java|1552|1571|emeraldToolMaterial|field|net.kochma123.machinemagic.Main|emeraldToolMaterial|
+   @|net\kochma123\machinemagic\Main.java|1574|1584|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|net\kochma123\machinemagic\Main.java|1585|1600|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   @|net\kochma123\machinemagic\Main.java|1653|1670|Item.ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|net\kochma123\machinemagic\Main.java|1653|1670|Item.ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|net\kochma123\machinemagic\Main.java|1671|1689|copperToolMaterial|field|net.kochma123.machinemagic.Main|copperToolMaterial|
+   @|net\kochma123\machinemagic\Main.java|1692|1702|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|net\kochma123\machinemagic\Main.java|1703|1718|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   @|net\kochma123\machinemagic\Main.java|1769|1792|ItemArmor.ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+   @|net\kochma123\machinemagic\Main.java|1769|1792|ItemArmor.ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+   @|net\kochma123\machinemagic\Main.java|1793|1812|copperArmorMaterial|field|net.kochma123.machinemagic.Main|copperArmorMaterial|
+   @|net\kochma123\machinemagic\Main.java|1815|1825|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|net\kochma123\machinemagic\Main.java|1826|1842|addArmorMaterial|method|net.minecraftforge.common.util.EnumHelper|addArmorMaterial|(Ljava/lang/String;Ljava/lang/String;I[IILnet/minecraft/util/SoundEvent;F)Lnet/minecraft/item/ItemArmor$ArmorMaterial;
+   @|net\kochma123\machinemagic\Main.java|1853|1858|MODID|field|net.kochma123.machinemagic.Main|MODID
+   @|net\kochma123\machinemagic\Main.java|1902|1913|SoundEvents|class|net.minecraft.init.SoundEvents
+   @|net\kochma123\machinemagic\Main.java|1914|1935|ITEM_ARMOR_EQUIP_IRON|field|net.minecraft.init.SoundEvents|ITEM_ARMOR_EQUIP_IRON
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\kochma123\machinemagic\Main.java|2012|2017|event|param|net.kochma123.machinemagic.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\kochma123\machinemagic\Main.java|1948|1964|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\kochma123\machinemagic\Main.java|1978|1985|preInit|method|net.kochma123.machinemagic.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\kochma123\machinemagic\Main.java|1986|2011|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\kochma123\machinemagic\Main.java|2023|2029|System|class|java.lang.System
+      @|net\kochma123\machinemagic\Main.java|2030|2033|out|field|java.lang.System|out
+      @|net\kochma123\machinemagic\Main.java|2034|2041|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\Main.java|2042|2049|MODNAME|field|net.kochma123.machinemagic.Main|MODNAME
+      @|net\kochma123\machinemagic\Main.java|2071|2083|BlockHandler|class|net.kochma123.machinemagic.handler.BlockHandler
+      @|net\kochma123\machinemagic\Main.java|2084|2088|init|method|net.kochma123.machinemagic.handler.BlockHandler|init|()V
+      @|net\kochma123\machinemagic\Main.java|2094|2110|DimensionHandler|class|net.kochma123.machinemagic.handler.DimensionHandler
+      @|net\kochma123\machinemagic\Main.java|2111|2115|init|method|net.kochma123.machinemagic.handler.DimensionHandler|init|()V
+      @|net\kochma123\machinemagic\Main.java|2121|2132|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\Main.java|2133|2137|init|method|net.kochma123.machinemagic.handler.ItemHandler|init|()V
+      @|net\kochma123\machinemagic\Main.java|2143|2155|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\Main.java|2156|2178|registerWorldGenerator|method|net.minecraftforge.fml.common.registry.GameRegistry|registerWorldGenerator|(Lnet/minecraftforge/fml/common/IWorldGenerator;I)V
+      @|net\kochma123\machinemagic\Main.java|2183|2191|WorldGen|class|net.kochma123.machinemagic.world.WorldGen
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\kochma123\machinemagic\Main.java|2263|2268|event|param|net.kochma123.machinemagic.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\kochma123\machinemagic\Main.java|2205|2221|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\kochma123\machinemagic\Main.java|2235|2239|init|method|net.kochma123.machinemagic.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\kochma123\machinemagic\Main.java|2240|2262|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\kochma123\machinemagic\Main.java|2274|2280|System|class|java.lang.System
+      @|net\kochma123\machinemagic\Main.java|2281|2284|out|field|java.lang.System|out
+      @|net\kochma123\machinemagic\Main.java|2285|2292|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\Main.java|2293|2300|MODNAME|field|net.kochma123.machinemagic.Main|MODNAME
+      @|net\kochma123\machinemagic\Main.java|2331|2344|RecipeHandler|class|net.kochma123.machinemagic.handler.RecipeHandler
+      @|net\kochma123\machinemagic\Main.java|2345|2349|init|method|net.kochma123.machinemagic.handler.RecipeHandler|init|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\kochma123\machinemagic\Main.java|2425|2430|event|param|net.kochma123.machinemagic.Main|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\kochma123\machinemagic\Main.java|2359|2375|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\kochma123\machinemagic\Main.java|2389|2397|postInit|method|net.kochma123.machinemagic.Main|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\kochma123\machinemagic\Main.java|2398|2424|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|net\kochma123\machinemagic\Main.java|2436|2442|System|class|java.lang.System
+      @|net\kochma123\machinemagic\Main.java|2443|2446|out|field|java.lang.System|out
+      @|net\kochma123\machinemagic\Main.java|2447|2454|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\Main.java|2455|2462|MODNAME|field|net.kochma123.machinemagic.Main|MODNAME
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : net.kochma123.machinemagic.Main
+endProcessing "net\kochma123\machinemagic\Main.java"
+
+startProcessing "net\kochma123\machinemagic\block\BlockBase.java" md5: f4384ea41441ba14bf410e2665a46372
+@|net\kochma123\machinemagic\block\BlockBase.java|8|40|net.kochma123.machinemagic.block|package|net.kochma123.machinemagic.block|(file)
+Class Start: net.kochma123.machinemagic.block.BlockBase
+   @|net\kochma123\machinemagic\block\BlockBase.java|314|323|BlockBase|class|net.kochma123.machinemagic.block.BlockBase
+   @|net\kochma123\machinemagic\block\BlockBase.java|332|337|Block|class|net.minecraft.block.Block
+   @|net\kochma123\machinemagic\block\BlockBase.java|349|366|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+   @|net\kochma123\machinemagic\block\BlockBase.java|381|387|String|class|java.lang.String
+   @|net\kochma123\machinemagic\block\BlockBase.java|381|387|String|class|java.lang.String
+   @|net\kochma123\machinemagic\block\BlockBase.java|388|392|name|field|net.kochma123.machinemagic.block.BlockBase|name|
+   Method Start: BlockBase(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\block\BlockBase.java|422|432|materialIn|param|net.kochma123.machinemagic.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|materialIn|0
+      @|net\kochma123\machinemagic\block\BlockBase.java|441|445|name|param|net.kochma123.machinemagic.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\block\BlockBase.java|403|412|BlockBase|method|net.kochma123.machinemagic.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\block\BlockBase.java|413|421|Material|class|net.minecraft.block.material.Material
+      @|net\kochma123\machinemagic\block\BlockBase.java|434|440|String|class|java.lang.String
+      @|net\kochma123\machinemagic\block\BlockBase.java|457|467|materialIn|param|net.kochma123.machinemagic.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|materialIn|0
+      @|net\kochma123\machinemagic\block\BlockBase.java|477|481|name|field|net.kochma123.machinemagic.block.BlockBase|name
+      @|net\kochma123\machinemagic\block\BlockBase.java|484|488|name|param|net.kochma123.machinemagic.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\block\BlockBase.java|492|510|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\block\BlockBase.java|511|515|name|param|net.kochma123.machinemagic.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\block\BlockBase.java|520|535|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\block\BlockBase.java|536|540|name|param|net.kochma123.machinemagic.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\block\BlockBase.java|545|559|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\block\BlockBase.java|560|564|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\block\BlockBase.java|565|576|creativeTab|field|net.kochma123.machinemagic.Main|creativeTab
+   Method End: BlockBase(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\block\BlockBase.java|619|623|item|param|net.kochma123.machinemagic.block.BlockBase|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|net\kochma123\machinemagic\block\BlockBase.java|596|613|registerItemModel|method|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\block\BlockBase.java|614|618|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\block\BlockBase.java|629|633|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\block\BlockBase.java|634|639|proxy|field|net.kochma123.machinemagic.Main|proxy
+      @|net\kochma123\machinemagic\block\BlockBase.java|640|660|registerItemRenderer|method|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|net\kochma123\machinemagic\block\BlockBase.java|661|665|item|param|net.kochma123.machinemagic.block.BlockBase|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|net\kochma123\machinemagic\block\BlockBase.java|670|674|name|field|net.kochma123.machinemagic.block.BlockBase|name
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+   Method Start: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/kochma123/machinemagic/block/BlockBase;
+      @|net\kochma123\machinemagic\block\BlockBase.java|738|741|tab|param|net.kochma123.machinemagic.block.BlockBase|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/kochma123/machinemagic/block/BlockBase;|tab|0
+      @|net\kochma123\machinemagic\block\BlockBase.java|683|691|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\block\BlockBase.java|700|709|BlockBase|class|net.kochma123.machinemagic.block.BlockBase
+      @|net\kochma123\machinemagic\block\BlockBase.java|710|724|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\block\BlockBase.java|725|737|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|net\kochma123\machinemagic\block\BlockBase.java|753|767|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\block\BlockBase.java|768|771|tab|param|net.kochma123.machinemagic.block.BlockBase|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/kochma123/machinemagic/block/BlockBase;|tab|0
+   Method End: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/kochma123/machinemagic/block/BlockBase;
+Class End  : net.kochma123.machinemagic.block.BlockBase
+endProcessing "net\kochma123\machinemagic\block\BlockBase.java"
+
+startProcessing "net\kochma123\machinemagic\block\BlockCropCorn.java" md5: 87760de19f3d02244203ee4a96a92027
+@|net\kochma123\machinemagic\block\BlockCropCorn.java|8|40|net.kochma123.machinemagic.block|package|net.kochma123.machinemagic.block|(file)
+Class Start: net.kochma123.machinemagic.block.BlockCropCorn
+   @|net\kochma123\machinemagic\block\BlockCropCorn.java|223|236|BlockCropCorn|class|net.kochma123.machinemagic.block.BlockCropCorn
+   @|net\kochma123\machinemagic\block\BlockCropCorn.java|245|255|BlockCrops|class|net.minecraft.block.BlockCrops
+   Method Start: BlockCropCorn()V
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|266|279|BlockCropCorn|method|net.kochma123.machinemagic.block.BlockCropCorn|BlockCropCorn|()V
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|286|304|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|321|336|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|353|367|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|368|372|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|373|384|creativeTab|field|net.kochma123.machinemagic.Main|creativeTab
+   Method End: BlockCropCorn()V
+   Method Start: getSeed()Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|393|401|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|413|417|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|418|425|getSeed|method|net.minecraft.block.BlockCrops|getSeed|()Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|439|450|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|451|459|cornSeed|field|net.kochma123.machinemagic.handler.ItemHandler|cornSeed
+   Method End: getSeed()Lnet/minecraft/item/Item;
+   Method Start: getCrop()Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|467|475|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|487|491|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|492|499|getCrop|method|net.minecraft.block.BlockCrops|getCrop|()Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|513|524|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\block\BlockCropCorn.java|525|529|corn|field|net.kochma123.machinemagic.handler.ItemHandler|corn
+   Method End: getCrop()Lnet/minecraft/item/Item;
+Class End  : net.kochma123.machinemagic.block.BlockCropCorn
+endProcessing "net\kochma123\machinemagic\block\BlockCropCorn.java"
+
+startProcessing "net\kochma123\machinemagic\block\BlockOre.java" md5: eec237bedabc8ee40e6ae98bcd557823
+@|net\kochma123\machinemagic\block\BlockOre.java|8|40|net.kochma123.machinemagic.block|package|net.kochma123.machinemagic.block|(file)
+Class Start: net.kochma123.machinemagic.block.BlockOre
+   @|net\kochma123\machinemagic\block\BlockOre.java|251|259|BlockOre|class|net.kochma123.machinemagic.block.BlockOre
+   @|net\kochma123\machinemagic\block\BlockOre.java|268|277|BlockBase|class|net.kochma123.machinemagic.block.BlockBase
+   @|net\kochma123\machinemagic\block\BlockOre.java|289|300|ItemOreDict|class|net.kochma123.machinemagic.item.ItemOreDict
+   @|net\kochma123\machinemagic\block\BlockOre.java|313|319|String|class|java.lang.String
+   @|net\kochma123\machinemagic\block\BlockOre.java|313|319|String|class|java.lang.String
+   @|net\kochma123\machinemagic\block\BlockOre.java|320|327|oreName|field|net.kochma123.machinemagic.block.BlockOre|oreName|
+   Method Start: BlockOre(Ljava/lang/String;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\block\BlockOre.java|354|358|name|param|net.kochma123.machinemagic.block.BlockOre|BlockOre|(Ljava/lang/String;Ljava/lang/String;)V|name|0
+      @|net\kochma123\machinemagic\block\BlockOre.java|367|374|oreName|param|net.kochma123.machinemagic.block.BlockOre|BlockOre|(Ljava/lang/String;Ljava/lang/String;)V|oreName|1
+      @|net\kochma123\machinemagic\block\BlockOre.java|338|346|BlockOre|method|net.kochma123.machinemagic.block.BlockOre|BlockOre|(Ljava/lang/String;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\block\BlockOre.java|347|353|String|class|java.lang.String
+      @|net\kochma123\machinemagic\block\BlockOre.java|360|366|String|class|java.lang.String
+      @|net\kochma123\machinemagic\block\BlockOre.java|386|394|Material|class|net.minecraft.block.material.Material
+      @|net\kochma123\machinemagic\block\BlockOre.java|395|399|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|net\kochma123\machinemagic\block\BlockOre.java|401|405|name|param|net.kochma123.machinemagic.block.BlockOre|BlockOre|(Ljava/lang/String;Ljava/lang/String;)V|name|0
+      @|net\kochma123\machinemagic\block\BlockOre.java|415|422|oreName|field|net.kochma123.machinemagic.block.BlockOre|oreName
+      @|net\kochma123\machinemagic\block\BlockOre.java|425|432|oreName|param|net.kochma123.machinemagic.block.BlockOre|BlockOre|(Ljava/lang/String;Ljava/lang/String;)V|oreName|1
+      @|net\kochma123\machinemagic\block\BlockOre.java|436|447|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\block\BlockOre.java|455|468|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+   Method End: BlockOre(Ljava/lang/String;Ljava/lang/String;)V
+   Method Start: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/kochma123/machinemagic/block/BlockOre;
+      @|net\kochma123\machinemagic\block\BlockOre.java|535|538|tab|param|net.kochma123.machinemagic.block.BlockOre|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/kochma123/machinemagic/block/BlockOre;|tab|0
+      @|net\kochma123\machinemagic\block\BlockOre.java|481|489|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\block\BlockOre.java|498|506|BlockOre|class|net.kochma123.machinemagic.block.BlockOre
+      @|net\kochma123\machinemagic\block\BlockOre.java|507|521|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\block\BlockOre.java|522|534|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|net\kochma123\machinemagic\block\BlockOre.java|551|565|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\block\BlockOre.java|566|569|tab|param|net.kochma123.machinemagic.block.BlockOre|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/kochma123/machinemagic/block/BlockOre;|tab|0
+   Method End: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/kochma123/machinemagic/block/BlockOre;
+   Method Start: initOreDict()V
+      @|net\kochma123\machinemagic\block\BlockOre.java|593|601|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\block\BlockOre.java|615|626|initOreDict|method|net.kochma123.machinemagic.item.ItemOreDict|initOreDict|()V
+      @|net\kochma123\machinemagic\block\BlockOre.java|633|646|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
+      @|net\kochma123\machinemagic\block\BlockOre.java|647|658|registerOre|method|net.minecraftforge.oredict.OreDictionary|registerOre|(Ljava/lang/String;Lnet/minecraft/block/Block;)V
+      @|net\kochma123\machinemagic\block\BlockOre.java|659|666|oreName|field|net.kochma123.machinemagic.block.BlockOre|oreName
+   Method End: initOreDict()V
+Class End  : net.kochma123.machinemagic.block.BlockOre
+endProcessing "net\kochma123\machinemagic\block\BlockOre.java"
+
+startProcessing "net\kochma123\machinemagic\block\BlockTileEntity.java" md5: aa15b63e24bb7d3d99e235e4b2c5c7e9
+@|net\kochma123\machinemagic\block\BlockTileEntity.java|8|40|net.kochma123.machinemagic.block|package|net.kochma123.machinemagic.block|(file)
+Class Start: net.kochma123.machinemagic.block.BlockTileEntity
+   @|net\kochma123\machinemagic\block\BlockTileEntity.java|353|368|BlockTileEntity|class|net.kochma123.machinemagic.block.BlockTileEntity
+   @|net\kochma123\machinemagic\block\BlockTileEntity.java|380|390|TileEntity|class|net.minecraft.tileentity.TileEntity
+   @|net\kochma123\machinemagic\block\BlockTileEntity.java|400|409|BlockBase|class|net.kochma123.machinemagic.block.BlockBase
+   Method Start: BlockTileEntity(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|446|454|material|param|net.kochma123.machinemagic.block.BlockTileEntity|BlockTileEntity|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|463|467|name|param|net.kochma123.machinemagic.block.BlockTileEntity|BlockTileEntity|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|421|436|BlockTileEntity|method|net.kochma123.machinemagic.block.BlockTileEntity|BlockTileEntity|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|437|445|Material|class|net.minecraft.block.material.Material
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|456|462|String|class|java.lang.String
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|479|487|material|param|net.kochma123.machinemagic.block.BlockTileEntity|BlockTileEntity|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|489|493|name|param|net.kochma123.machinemagic.block.BlockTileEntity|BlockTileEntity|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+   Method End: BlockTileEntity(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+   Method Start: getTileEntityClass()Ljava/lang/Class;
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|518|523|Class|class|java.lang.Class
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|528|546|getTileEntityClass|method|net.kochma123.machinemagic.block.BlockTileEntity|getTileEntityClass|()Ljava/lang/Class;
+   Method End: getTileEntityClass()Ljava/lang/Class;
+   Method Start: getTileEntity(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|622|627|world|param|net.kochma123.machinemagic.block.BlockTileEntity|getTileEntity|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;|world|0
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|638|641|pos|param|net.kochma123.machinemagic.block.BlockTileEntity|getTileEntity|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;|pos|1
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|554|570|SuppressWarnings|class|java.lang.SuppressWarnings
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|595|608|getTileEntity|method|net.kochma123.machinemagic.block.BlockTileEntity|getTileEntity|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|609|621|IBlockAccess|class|net.minecraft.world.IBlockAccess
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|629|637|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|658|663|world|param|net.kochma123.machinemagic.block.BlockTileEntity|getTileEntity|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;|world|0
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|664|677|getTileEntity|method|net.minecraft.world.IBlockAccess|getTileEntity|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|678|681|pos|param|net.kochma123.machinemagic.block.BlockTileEntity|getTileEntity|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;|pos|1
+   Method End: getTileEntity(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+   Method Start: hasTileEntity(Lnet/minecraft/block/state/IBlockState;)Z
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|742|747|state|param|net.kochma123.machinemagic.block.BlockTileEntity|hasTileEntity|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|691|699|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|716|729|hasTileEntity|method|net.minecraft.block.Block|hasTileEntity|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|730|741|IBlockState|class|net.minecraft.block.state.IBlockState
+   Method End: hasTileEntity(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: createTileEntity(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|836|841|world|param|net.kochma123.machinemagic.block.BlockTileEntity|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|world|0
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|855|860|state|param|net.kochma123.machinemagic.block.BlockTileEntity|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|state|1
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|773|781|Nullable|class|javax.annotation.Nullable
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|784|792|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|813|829|createTileEntity|method|net.minecraft.block.Block|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|830|835|World|class|net.minecraft.world.World
+      @|net\kochma123\machinemagic\block\BlockTileEntity.java|843|854|IBlockState|class|net.minecraft.block.state.IBlockState
+   Method End: createTileEntity(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
+Class End  : net.kochma123.machinemagic.block.BlockTileEntity
+endProcessing "net\kochma123\machinemagic\block\BlockTileEntity.java"
+
+startProcessing "net\kochma123\machinemagic\block\counter\BlockCounter.java" md5: e230e7b1b01c7c3ce77ff283c497dd40
+@|net\kochma123\machinemagic\block\counter\BlockCounter.java|8|48|net.kochma123.machinemagic.block.counter|package|net.kochma123.machinemagic.block.counter|(file)
+Class Start: net.kochma123.machinemagic.block.counter.BlockCounter
+   @|net\kochma123\machinemagic\block\counter\BlockCounter.java|464|476|BlockCounter|class|net.kochma123.machinemagic.block.counter.BlockCounter
+   @|net\kochma123\machinemagic\block\counter\BlockCounter.java|485|500|BlockTileEntity|class|net.kochma123.machinemagic.block.BlockTileEntity
+   @|net\kochma123\machinemagic\block\counter\BlockCounter.java|501|518|TileEntityCounter|class|net.kochma123.machinemagic.block.counter.TileEntityCounter
+   Method Start: BlockCounter()V
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|530|542|BlockCounter|method|net.kochma123.machinemagic.block.counter.BlockCounter|BlockCounter|()V
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|555|563|Material|class|net.minecraft.block.material.Material
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|564|568|ROCK|field|net.minecraft.block.material.Material|ROCK
+   Method End: BlockCounter()V
+   Method Start: onBlockActivated(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|637|642|world|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|world|0
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|653|656|pos|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|670|675|state|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|state|2
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|690|696|player|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|player|3
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|707|711|hand|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hand|4
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|724|728|side|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|side|5
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|736|740|hitX|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitX|6
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|748|752|hitY|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitY|7
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|760|764|hitZ|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitZ|8
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|589|597|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|614|630|onBlockActivated|method|net.minecraft.block.Block|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|631|636|World|class|net.minecraft.world.World
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|644|652|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|658|669|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|677|689|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|698|706|EnumHand|class|net.minecraft.util.EnumHand
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|713|723|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|775|780|world|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|world|0
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|781|789|isRemote|field|net.minecraft.world.World|isRemote
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|796|813|TileEntityCounter|class|net.kochma123.machinemagic.block.counter.TileEntityCounter
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|821|834|getTileEntity|method|net.kochma123.machinemagic.block.BlockTileEntity|getTileEntity|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|835|840|world|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|world|0
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|842|845|pos|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|855|859|side|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|side|5
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|863|873|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|874|878|DOWN|field|net.minecraft.util.EnumFacing|DOWN
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|891|905|decrementCount|method|net.kochma123.machinemagic.block.counter.TileEntityCounter|decrementCount|()V
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|923|927|side|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|side|5
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|931|941|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|942|944|UP|field|net.minecraft.util.EnumFacing|UP
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|957|971|incrementCount|method|net.kochma123.machinemagic.block.counter.TileEntityCounter|incrementCount|()V
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|983|989|player|param|net.kochma123.machinemagic.block.counter.BlockCounter|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|player|3
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|990|1001|sendMessage|method|net.minecraft.command.ICommandSender|sendMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1006|1025|TextComponentString|class|net.minecraft.util.text.TextComponentString
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1043|1051|getCount|method|net.kochma123.machinemagic.block.counter.TileEntityCounter|getCount|()I
+   Method End: onBlockActivated(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
+   Method Start: getTileEntityClass()Ljava/lang/Class;
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1082|1090|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1099|1104|Class|class|java.lang.Class
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1105|1122|TileEntityCounter|class|net.kochma123.machinemagic.block.counter.TileEntityCounter
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1124|1142|getTileEntityClass|method|net.kochma123.machinemagic.block.BlockTileEntity|getTileEntityClass|()Ljava/lang/Class;
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1156|1173|TileEntityCounter|class|net.kochma123.machinemagic.block.counter.TileEntityCounter
+   Method End: getTileEntityClass()Ljava/lang/Class;
+   Method Start: createTileEntity(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/kochma123/machinemagic/block/counter/TileEntityCounter;
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1245|1250|world|param|net.kochma123.machinemagic.block.counter.BlockCounter|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/kochma123/machinemagic/block/counter/TileEntityCounter;|world|0
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1264|1269|state|param|net.kochma123.machinemagic.block.counter.BlockCounter|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/kochma123/machinemagic/block/counter/TileEntityCounter;|state|1
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1187|1195|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1204|1221|TileEntityCounter|class|net.kochma123.machinemagic.block.counter.TileEntityCounter
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1222|1238|createTileEntity|method|net.minecraft.block.Block|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1239|1244|World|class|net.minecraft.world.World
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1252|1263|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|net\kochma123\machinemagic\block\counter\BlockCounter.java|1286|1303|TileEntityCounter|class|net.kochma123.machinemagic.block.counter.TileEntityCounter
+   Method End: createTileEntity(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/kochma123/machinemagic/block/counter/TileEntityCounter;
+Class End  : net.kochma123.machinemagic.block.counter.BlockCounter
+endProcessing "net\kochma123\machinemagic\block\counter\BlockCounter.java"
+
+startProcessing "net\kochma123\machinemagic\block\counter\TileEntityCounter.java" md5: f6fa90915771019597888ee0e87f755c
+@|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|8|48|net.kochma123.machinemagic.block.counter|package|net.kochma123.machinemagic.block.counter|(file)
+Class Start: net.kochma123.machinemagic.block.counter.TileEntityCounter
+   @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|149|166|TileEntityCounter|class|net.kochma123.machinemagic.block.counter.TileEntityCounter
+   @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|175|185|TileEntity|class|net.minecraft.tileentity.TileEntity
+   @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|202|207|count|field|net.kochma123.machinemagic.block.counter.TileEntityCounter|count|
+   Method Start: writeToNBT(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|270|278|compound|param|net.kochma123.machinemagic.block.counter.TileEntityCounter|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|compound|0
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|212|220|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|229|243|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|244|254|writeToNBT|method|net.minecraft.tileentity.TileEntity|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|255|269|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|284|292|compound|param|net.kochma123.machinemagic.block.counter.TileEntityCounter|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|compound|0
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|293|303|setInteger|method|net.minecraft.nbt.NBTTagCompound|setInteger|(Ljava/lang/String;I)V
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|313|318|count|field|net.kochma123.machinemagic.block.counter.TileEntityCounter|count
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|336|346|writeToNBT|method|net.minecraft.tileentity.TileEntity|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|347|355|compound|param|net.kochma123.machinemagic.block.counter.TileEntityCounter|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;|compound|0
+   Method End: writeToNBT(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+   Method Start: readFromNBT(Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|414|422|compound|param|net.kochma123.machinemagic.block.counter.TileEntityCounter|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V|compound|0
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|365|373|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|387|398|readFromNBT|method|net.minecraft.tileentity.TileEntity|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|399|413|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|428|433|count|field|net.kochma123.machinemagic.block.counter.TileEntityCounter|count
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|436|444|compound|param|net.kochma123.machinemagic.block.counter.TileEntityCounter|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V|compound|0
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|445|455|getInteger|method|net.minecraft.nbt.NBTTagCompound|getInteger|(Ljava/lang/String;)I
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|474|485|readFromNBT|method|net.minecraft.tileentity.TileEntity|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|486|494|compound|param|net.kochma123.machinemagic.block.counter.TileEntityCounter|readFromNBT|(Lnet/minecraft/nbt/NBTTagCompound;)V|compound|0
+   Method End: readFromNBT(Lnet/minecraft/nbt/NBTTagCompound;)V
+   Method Start: getCount()I
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|514|522|getCount|method|net.kochma123.machinemagic.block.counter.TileEntityCounter|getCount|()I
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|536|541|count|field|net.kochma123.machinemagic.block.counter.TileEntityCounter|count
+   Method End: getCount()I
+   Method Start: incrementCount()V
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|561|575|incrementCount|method|net.kochma123.machinemagic.block.counter.TileEntityCounter|incrementCount|()V
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|582|587|count|field|net.kochma123.machinemagic.block.counter.TileEntityCounter|count
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|593|602|markDirty|method|net.minecraft.tileentity.TileEntity|markDirty|()V
+   Method End: incrementCount()V
+   Method Start: decrementCount()V
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|624|638|decrementCount|method|net.kochma123.machinemagic.block.counter.TileEntityCounter|decrementCount|()V
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|645|650|count|field|net.kochma123.machinemagic.block.counter.TileEntityCounter|count
+      @|net\kochma123\machinemagic\block\counter\TileEntityCounter.java|656|665|markDirty|method|net.minecraft.tileentity.TileEntity|markDirty|()V
+   Method End: decrementCount()V
+Class End  : net.kochma123.machinemagic.block.counter.TileEntityCounter
+endProcessing "net\kochma123\machinemagic\block\counter\TileEntityCounter.java"
+
+startProcessing "net\kochma123\machinemagic\client\CreativeTab.java" md5: d7ed4dcf9564c6da289adf891e4e82f7
+@|net\kochma123\machinemagic\client\CreativeTab.java|8|41|net.kochma123.machinemagic.client|package|net.kochma123.machinemagic.client|(file)
+Class Start: net.kochma123.machinemagic.client.CreativeTab
+   @|net\kochma123\machinemagic\client\CreativeTab.java|237|248|CreativeTab|class|net.kochma123.machinemagic.client.CreativeTab
+   @|net\kochma123\machinemagic\client\CreativeTab.java|257|269|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   Method Start: CreativeTab()V
+      @|net\kochma123\machinemagic\client\CreativeTab.java|280|291|CreativeTab|method|net.kochma123.machinemagic.client.CreativeTab|CreativeTab|()V
+      @|net\kochma123\machinemagic\client\CreativeTab.java|303|307|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\client\CreativeTab.java|308|313|MODID|field|net.kochma123.machinemagic.Main|MODID
+      @|net\kochma123\machinemagic\client\CreativeTab.java|318|340|setBackgroundImageName|method|net.minecraft.creativetab.CreativeTabs|setBackgroundImageName|(Ljava/lang/String;)Lnet/minecraft/creativetab/CreativeTabs;
+   Method End: CreativeTab()V
+   Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
+      @|net\kochma123\machinemagic\client\CreativeTab.java|369|377|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\client\CreativeTab.java|386|395|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\client\CreativeTab.java|396|410|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+      @|net\kochma123\machinemagic\client\CreativeTab.java|427|436|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\client\CreativeTab.java|437|448|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\client\CreativeTab.java|449|460|ingotCopper|field|net.kochma123.machinemagic.handler.ItemHandler|ingotCopper
+   Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
+   Method Start: hasSearchBar()Z
+      @|net\kochma123\machinemagic\client\CreativeTab.java|471|479|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\client\CreativeTab.java|496|508|hasSearchBar|method|net.minecraft.creativetab.CreativeTabs|hasSearchBar|()Z
+   Method End: hasSearchBar()Z
+Class End  : net.kochma123.machinemagic.client.CreativeTab
+endProcessing "net\kochma123\machinemagic\client\CreativeTab.java"
+
+startProcessing "net\kochma123\machinemagic\dimension\MyWorldProvider.java" md5: 79cb5f936e7fac17d73a270f1225a820
+@|net\kochma123\machinemagic\dimension\MyWorldProvider.java|8|44|net.kochma123.machinemagic.dimension|package|net.kochma123.machinemagic.dimension|(file)
+Class Start: net.kochma123.machinemagic.dimension.MyWorldProvider
+   @|net\kochma123\machinemagic\dimension\MyWorldProvider.java|110|125|MyWorldProvider|class|net.kochma123.machinemagic.dimension.MyWorldProvider
+   @|net\kochma123\machinemagic\dimension\MyWorldProvider.java|134|154|WorldProviderSurface|class|net.minecraft.world.WorldProviderSurface
+   Method Start: MyWorldProvider()V
+      @|net\kochma123\machinemagic\dimension\MyWorldProvider.java|165|180|MyWorldProvider|method|net.kochma123.machinemagic.dimension.MyWorldProvider|MyWorldProvider|()V
+   Method End: MyWorldProvider()V
+Class End  : net.kochma123.machinemagic.dimension.MyWorldProvider
+endProcessing "net\kochma123\machinemagic\dimension\MyWorldProvider.java"
+
+startProcessing "net\kochma123\machinemagic\handler\BlockHandler.java" md5: 2a9f6d833d393119616a00b95e09b27c
+@|net\kochma123\machinemagic\handler\BlockHandler.java|8|42|net.kochma123.machinemagic.handler|package|net.kochma123.machinemagic.handler|(file)
+Class Start: net.kochma123.machinemagic.handler.BlockHandler
+   @|net\kochma123\machinemagic\handler\BlockHandler.java|524|536|BlockHandler|class|net.kochma123.machinemagic.handler.BlockHandler
+   @|net\kochma123\machinemagic\handler\BlockHandler.java|556|564|BlockOre|class|net.kochma123.machinemagic.block.BlockOre
+   @|net\kochma123\machinemagic\handler\BlockHandler.java|556|564|BlockOre|class|net.kochma123.machinemagic.block.BlockOre
+   @|net\kochma123\machinemagic\handler\BlockHandler.java|565|574|oreCopper|field|net.kochma123.machinemagic.handler.BlockHandler|oreCopper|
+   @|net\kochma123\machinemagic\handler\BlockHandler.java|591|604|BlockCropCorn|class|net.kochma123.machinemagic.block.BlockCropCorn
+   @|net\kochma123\machinemagic\handler\BlockHandler.java|591|604|BlockCropCorn|class|net.kochma123.machinemagic.block.BlockCropCorn
+   @|net\kochma123\machinemagic\handler\BlockHandler.java|605|613|cropCorn|field|net.kochma123.machinemagic.handler.BlockHandler|cropCorn|
+   @|net\kochma123\machinemagic\handler\BlockHandler.java|630|642|BlockCounter|class|net.kochma123.machinemagic.block.counter.BlockCounter
+   @|net\kochma123\machinemagic\handler\BlockHandler.java|630|642|BlockCounter|class|net.kochma123.machinemagic.block.counter.BlockCounter
+   @|net\kochma123\machinemagic\handler\BlockHandler.java|643|650|counter|field|net.kochma123.machinemagic.handler.BlockHandler|counter|
+   Method Start: init()V
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|674|678|init|method|net.kochma123.machinemagic.handler.BlockHandler|init|()V
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|685|693|cropCorn|field|net.kochma123.machinemagic.handler.BlockHandler|cropCorn
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|696|704|register|method|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|709|722|BlockCropCorn|class|net.kochma123.machinemagic.block.BlockCropCorn
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|735|744|oreCopper|field|net.kochma123.machinemagic.handler.BlockHandler|oreCopper
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|747|755|register|method|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|760|768|BlockOre|class|net.kochma123.machinemagic.block.BlockOre
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|799|806|counter|field|net.kochma123.machinemagic.handler.BlockHandler|counter
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|809|817|register|method|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|822|834|BlockCounter|class|net.kochma123.machinemagic.block.counter.BlockCounter
+   Method End: init()V
+   Method Start: register(Lnet/minecraft/block/Block;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|890|895|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;)Lnet/minecraft/block/Block;|block|0
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|870|875|Block|class|net.minecraft.block.Block
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|879|887|register|method|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|901|910|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|927|936|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|937|942|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;)Lnet/minecraft/block/Block;|block|0
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|957|972|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|973|978|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;)Lnet/minecraft/block/Block;|block|0
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|979|994|getRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1008|1016|register|method|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1017|1022|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;)Lnet/minecraft/block/Block;|block|0
+   Method End: register(Lnet/minecraft/block/Block;)Lnet/minecraft/block/Block;
+   Method Start: register(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1088|1093|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|block|0
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1105|1114|itemBlock|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|itemBlock|1
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1068|1073|Block|class|net.minecraft.block.Block
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1077|1085|register|method|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1095|1104|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1120|1132|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1133|1141|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1142|1147|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|block|0
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1156|1161|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|block|0
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1173|1188|BlockTileEntity|class|net.kochma123.machinemagic.block.BlockTileEntity
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1194|1206|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1207|1225|registerTileEntity|method|net.minecraftforge.fml.common.registry.GameRegistry|registerTileEntity|(Ljava/lang/Class;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1228|1243|BlockTileEntity|class|net.kochma123.machinemagic.block.BlockTileEntity
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1247|1252|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|block|0
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1254|1272|getTileEntityClass|method|net.kochma123.machinemagic.block.BlockTileEntity|getTileEntityClass|()Ljava/lang/Class;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1276|1281|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|block|0
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1282|1297|getRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1300|1308|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1322|1331|itemBlock|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|itemBlock|1
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1344|1356|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1357|1365|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1366|1375|itemBlock|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|itemBlock|1
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1384|1389|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|block|0
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1401|1418|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1427|1444|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1446|1451|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|block|0
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1453|1470|registerItemModel|method|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1471|1480|itemBlock|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|itemBlock|1
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1493|1498|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|block|0
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1510|1521|ItemOreDict|class|net.kochma123.machinemagic.item.ItemOreDict
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1530|1541|ItemOreDict|class|net.kochma123.machinemagic.item.ItemOreDict
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1542|1547|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|block|0
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1549|1560|initOreDict|method|net.kochma123.machinemagic.item.ItemOreDict|initOreDict|()V
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1574|1583|itemBlock|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|itemBlock|1
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1595|1606|ItemOreDict|class|net.kochma123.machinemagic.item.ItemOreDict
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1615|1626|ItemOreDict|class|net.kochma123.machinemagic.item.ItemOreDict
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1627|1636|itemBlock|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|itemBlock|1
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1638|1649|initOreDict|method|net.kochma123.machinemagic.item.ItemOreDict|initOreDict|()V
+      @|net\kochma123\machinemagic\handler\BlockHandler.java|1667|1672|block|param|net.kochma123.machinemagic.handler.BlockHandler|register|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;|block|0
+   Method End: register(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemBlock;)Lnet/minecraft/block/Block;
+Class End  : net.kochma123.machinemagic.handler.BlockHandler
+endProcessing "net\kochma123\machinemagic\handler\BlockHandler.java"
+
+startProcessing "net\kochma123\machinemagic\handler\DimensionHandler.java" md5: ac0d700d1ef6a3e11362e1d0a7af0632
+@|net\kochma123\machinemagic\handler\DimensionHandler.java|8|42|net.kochma123.machinemagic.handler|package|net.kochma123.machinemagic.handler|(file)
+Class Start: net.kochma123.machinemagic.handler.DimensionHandler
+   @|net\kochma123\machinemagic\handler\DimensionHandler.java|194|210|DimensionHandler|class|net.kochma123.machinemagic.handler.DimensionHandler
+   Method Start: init()V
+      @|net\kochma123\machinemagic\handler\DimensionHandler.java|234|238|init|method|net.kochma123.machinemagic.handler.DimensionHandler|init|()V
+      @|net\kochma123\machinemagic\handler\DimensionHandler.java|245|258|DimensionType|class|net.minecraft.world.DimensionType
+      @|net\kochma123\machinemagic\handler\DimensionHandler.java|263|276|DimensionType|class|net.minecraft.world.DimensionType
+      @|net\kochma123\machinemagic\handler\DimensionHandler.java|277|285|register|method|net.minecraft.world.DimensionType|register|(Ljava/lang/String;Ljava/lang/String;ILjava/lang/Class;Z)Lnet/minecraft/world/DimensionType;
+      @|net\kochma123\machinemagic\handler\DimensionHandler.java|313|326|WorldProvider|class|net.minecraft.world.WorldProvider
+      @|net\kochma123\machinemagic\handler\DimensionHandler.java|343|359|DimensionManager|class|net.minecraftforge.common.DimensionManager
+      @|net\kochma123\machinemagic\handler\DimensionHandler.java|360|377|registerDimension|method|net.minecraftforge.common.DimensionManager|registerDimension|(ILnet/minecraft/world/DimensionType;)V
+   Method End: init()V
+Class End  : net.kochma123.machinemagic.handler.DimensionHandler
+endProcessing "net\kochma123\machinemagic\handler\DimensionHandler.java"
+
+startProcessing "net\kochma123\machinemagic\handler\ItemHandler.java" md5: ec8cf3ccd5f5b9466ddae0e0c6b75372
+@|net\kochma123\machinemagic\handler\ItemHandler.java|8|42|net.kochma123.machinemagic.handler|package|net.kochma123.machinemagic.handler|(file)
+Class Start: net.kochma123.machinemagic.handler.ItemHandler
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|877|888|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|907|915|ItemBase|class|net.kochma123.machinemagic.item.ItemBase
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|907|915|ItemBase|class|net.kochma123.machinemagic.item.ItemBase
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|916|927|ingotCopper|field|net.kochma123.machinemagic.handler.ItemHandler|ingotCopper|
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|946|958|ItemCornSeed|class|net.kochma123.machinemagic.item.ItemCornSeed
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|946|958|ItemCornSeed|class|net.kochma123.machinemagic.item.ItemCornSeed
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|959|967|cornSeed|field|net.kochma123.machinemagic.handler.ItemHandler|cornSeed|
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|984|992|ItemCorn|class|net.kochma123.machinemagic.item.ItemCorn
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|984|992|ItemCorn|class|net.kochma123.machinemagic.item.ItemCorn
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|993|997|corn|field|net.kochma123.machinemagic.handler.ItemHandler|corn|
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1016|1025|ItemSword|class|net.kochma123.machinemagic.item.tool.ItemSword
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1016|1025|ItemSword|class|net.kochma123.machinemagic.item.tool.ItemSword
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1026|1038|emeraldSword|field|net.kochma123.machinemagic.handler.ItemHandler|emeraldSword|
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1057|1066|ItemSword|class|net.kochma123.machinemagic.item.tool.ItemSword
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1057|1066|ItemSword|class|net.kochma123.machinemagic.item.tool.ItemSword
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1067|1078|copperSword|field|net.kochma123.machinemagic.handler.ItemHandler|copperSword|
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1095|1106|ItemPickaxe|class|net.kochma123.machinemagic.item.tool.ItemPickaxe
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1095|1106|ItemPickaxe|class|net.kochma123.machinemagic.item.tool.ItemPickaxe
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1107|1120|copperPickaxe|field|net.kochma123.machinemagic.handler.ItemHandler|copperPickaxe|
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1137|1144|ItemHoe|class|net.kochma123.machinemagic.item.tool.ItemHoe
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1137|1144|ItemHoe|class|net.kochma123.machinemagic.item.tool.ItemHoe
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1145|1154|copperHoe|field|net.kochma123.machinemagic.handler.ItemHandler|copperHoe|
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1171|1178|ItemAxe|class|net.kochma123.machinemagic.item.tool.ItemAxe
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1171|1178|ItemAxe|class|net.kochma123.machinemagic.item.tool.ItemAxe
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1179|1188|copperAxe|field|net.kochma123.machinemagic.handler.ItemHandler|copperAxe|
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1207|1217|ItemShovel|class|net.kochma123.machinemagic.item.tool.ItemShovel
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1207|1217|ItemShovel|class|net.kochma123.machinemagic.item.tool.ItemShovel
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1218|1230|copperShovel|field|net.kochma123.machinemagic.handler.ItemHandler|copperShovel|
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1247|1257|ItemArmour|class|net.kochma123.machinemagic.item.ItemArmour
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1247|1257|ItemArmour|class|net.kochma123.machinemagic.item.ItemArmour
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1258|1270|copperHelmet|field|net.kochma123.machinemagic.handler.ItemHandler|copperHelmet|
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1287|1297|ItemArmour|class|net.kochma123.machinemagic.item.ItemArmour
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1287|1297|ItemArmour|class|net.kochma123.machinemagic.item.ItemArmour
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1298|1314|copperChestplate|field|net.kochma123.machinemagic.handler.ItemHandler|copperChestplate|
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1331|1341|ItemArmour|class|net.kochma123.machinemagic.item.ItemArmour
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1331|1341|ItemArmour|class|net.kochma123.machinemagic.item.ItemArmour
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1342|1356|copperLeggings|field|net.kochma123.machinemagic.handler.ItemHandler|copperLeggings|
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1373|1383|ItemArmour|class|net.kochma123.machinemagic.item.ItemArmour
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1373|1383|ItemArmour|class|net.kochma123.machinemagic.item.ItemArmour
+   @|net\kochma123\machinemagic\handler\ItemHandler.java|1384|1395|copperBoots|field|net.kochma123.machinemagic.handler.ItemHandler|copperBoots|
+   Method Start: init()V
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1418|1422|init|method|net.kochma123.machinemagic.handler.ItemHandler|init|()V
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1429|1441|emeraldSword|field|net.kochma123.machinemagic.handler.ItemHandler|emeraldSword
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1444|1452|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1457|1466|ItemSword|class|net.kochma123.machinemagic.item.tool.ItemSword
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1467|1471|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1472|1491|emeraldToolMaterial|field|net.kochma123.machinemagic.Main|emeraldToolMaterial
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1516|1528|copperHelmet|field|net.kochma123.machinemagic.handler.ItemHandler|copperHelmet
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1531|1539|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1544|1554|ItemArmour|class|net.kochma123.machinemagic.item.ItemArmour
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1555|1559|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1560|1579|copperArmorMaterial|field|net.kochma123.machinemagic.Main|copperArmorMaterial
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1580|1599|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1600|1604|HEAD|field|net.minecraft.inventory.EntityEquipmentSlot|HEAD
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1626|1642|copperChestplate|field|net.kochma123.machinemagic.handler.ItemHandler|copperChestplate
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1645|1653|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1658|1668|ItemArmour|class|net.kochma123.machinemagic.item.ItemArmour
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1669|1673|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1674|1693|copperArmorMaterial|field|net.kochma123.machinemagic.Main|copperArmorMaterial
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1695|1714|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1715|1720|CHEST|field|net.minecraft.inventory.EntityEquipmentSlot|CHEST
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1747|1761|copperLeggings|field|net.kochma123.machinemagic.handler.ItemHandler|copperLeggings
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1764|1772|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1777|1787|ItemArmour|class|net.kochma123.machinemagic.item.ItemArmour
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1788|1792|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1793|1812|copperArmorMaterial|field|net.kochma123.machinemagic.Main|copperArmorMaterial
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1814|1833|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1834|1838|LEGS|field|net.minecraft.inventory.EntityEquipmentSlot|LEGS
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1863|1874|copperBoots|field|net.kochma123.machinemagic.handler.ItemHandler|copperBoots
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1877|1885|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1890|1900|ItemArmour|class|net.kochma123.machinemagic.item.ItemArmour
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1901|1905|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1906|1925|copperArmorMaterial|field|net.kochma123.machinemagic.Main|copperArmorMaterial
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1927|1946|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1947|1951|FEET|field|net.minecraft.inventory.EntityEquipmentSlot|FEET
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1976|1985|copperAxe|field|net.kochma123.machinemagic.handler.ItemHandler|copperAxe
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|1988|1996|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2001|2008|ItemAxe|class|net.kochma123.machinemagic.item.tool.ItemAxe
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2009|2013|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2014|2032|copperToolMaterial|field|net.kochma123.machinemagic.Main|copperToolMaterial
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2052|2061|copperHoe|field|net.kochma123.machinemagic.handler.ItemHandler|copperHoe
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2064|2072|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2077|2084|ItemHoe|class|net.kochma123.machinemagic.item.tool.ItemHoe
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2085|2089|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2090|2108|copperToolMaterial|field|net.kochma123.machinemagic.Main|copperToolMaterial
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2128|2141|copperPickaxe|field|net.kochma123.machinemagic.handler.ItemHandler|copperPickaxe
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2144|2152|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2157|2168|ItemPickaxe|class|net.kochma123.machinemagic.item.tool.ItemPickaxe
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2169|2173|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2174|2192|copperToolMaterial|field|net.kochma123.machinemagic.Main|copperToolMaterial
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2216|2228|copperShovel|field|net.kochma123.machinemagic.handler.ItemHandler|copperShovel
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2231|2239|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2244|2254|ItemShovel|class|net.kochma123.machinemagic.item.tool.ItemShovel
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2255|2259|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2260|2278|copperToolMaterial|field|net.kochma123.machinemagic.Main|copperToolMaterial
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2301|2312|copperSword|field|net.kochma123.machinemagic.handler.ItemHandler|copperSword
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2315|2323|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2328|2337|ItemSword|class|net.kochma123.machinemagic.item.tool.ItemSword
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2338|2342|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2343|2361|copperToolMaterial|field|net.kochma123.machinemagic.Main|copperToolMaterial
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2386|2390|corn|field|net.kochma123.machinemagic.handler.ItemHandler|corn
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2393|2401|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2406|2414|ItemCorn|class|net.kochma123.machinemagic.item.ItemCorn
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2421|2429|cornSeed|field|net.kochma123.machinemagic.handler.ItemHandler|cornSeed
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2432|2440|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2445|2457|ItemCornSeed|class|net.kochma123.machinemagic.item.ItemCornSeed
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2467|2478|ingotCopper|field|net.kochma123.machinemagic.handler.ItemHandler|ingotCopper
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2481|2489|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2494|2501|ItemOre|class|net.kochma123.machinemagic.item.ItemOre
+   Method End: init()V
+   Method Start: register(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2585|2589|item|param|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;|item|0
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2566|2570|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2574|2582|register|method|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2595|2607|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2608|2616|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2617|2621|item|param|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;|item|0
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2630|2634|item|param|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;|item|0
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2646|2663|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2672|2689|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2691|2695|item|param|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;|item|0
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2697|2714|registerItemModel|method|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2715|2719|item|param|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;|item|0
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2732|2736|item|param|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;|item|0
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2748|2759|ItemOreDict|class|net.kochma123.machinemagic.item.ItemOreDict
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2768|2779|ItemOreDict|class|net.kochma123.machinemagic.item.ItemOreDict
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2781|2785|item|param|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;|item|0
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2787|2798|initOreDict|method|net.kochma123.machinemagic.item.ItemOreDict|initOreDict|()V
+      @|net\kochma123\machinemagic\handler\ItemHandler.java|2815|2819|item|param|net.kochma123.machinemagic.handler.ItemHandler|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;|item|0
+   Method End: register(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+Class End  : net.kochma123.machinemagic.handler.ItemHandler
+endProcessing "net\kochma123\machinemagic\handler\ItemHandler.java"
+
+startProcessing "net\kochma123\machinemagic\handler\RecipeHandler.java" md5: e20d15b1240378b003053b4119cf19cd
+@|net\kochma123\machinemagic\handler\RecipeHandler.java|8|42|net.kochma123.machinemagic.handler|package|net.kochma123.machinemagic.handler|(file)
+Class Start: net.kochma123.machinemagic.handler.RecipeHandler
+   @|net\kochma123\machinemagic\handler\RecipeHandler.java|274|287|RecipeHandler|class|net.kochma123.machinemagic.handler.RecipeHandler
+   Method Start: init()V
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|312|316|init|method|net.kochma123.machinemagic.handler.RecipeHandler|init|()V
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|322|334|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|335|353|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|358|367|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|368|379|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|380|388|cornSeed|field|net.kochma123.machinemagic.handler.ItemHandler|cornSeed
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|391|402|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|403|407|corn|field|net.kochma123.machinemagic.handler.ItemHandler|corn
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|415|427|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|428|443|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|448|457|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|458|463|Items|class|net.minecraft.init.Items
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|464|475|RABBIT_STEW|field|net.minecraft.init.Items|RABBIT_STEW
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|500|505|Items|class|net.minecraft.init.Items
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|506|519|COOKED_RABBIT|field|net.minecraft.init.Items|COOKED_RABBIT
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|524|535|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|536|540|corn|field|net.kochma123.machinemagic.handler.ItemHandler|corn
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|545|550|Items|class|net.minecraft.init.Items
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|551|563|BAKED_POTATO|field|net.minecraft.init.Items|BAKED_POTATO
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|568|574|Blocks|class|net.minecraft.init.Blocks
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|575|589|BROWN_MUSHROOM|field|net.minecraft.init.Blocks|BROWN_MUSHROOM
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|595|600|Items|class|net.minecraft.init.Items
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|601|605|BOWL|field|net.minecraft.init.Items|BOWL
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|632|644|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|645|660|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|665|674|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|675|686|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|687|699|copperHelmet|field|net.kochma123.machinemagic.handler.ItemHandler|copperHelmet
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|718|729|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|730|741|ingotCopper|field|net.kochma123.machinemagic.handler.ItemHandler|ingotCopper
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|746|758|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|759|774|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|779|788|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|789|800|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|801|817|copperChestplate|field|net.kochma123.machinemagic.handler.ItemHandler|copperChestplate
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|842|853|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|854|865|ingotCopper|field|net.kochma123.machinemagic.handler.ItemHandler|ingotCopper
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|870|882|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|883|898|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|903|912|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|913|924|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|925|939|copperLeggings|field|net.kochma123.machinemagic.handler.ItemHandler|copperLeggings
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|964|975|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|976|987|ingotCopper|field|net.kochma123.machinemagic.handler.ItemHandler|ingotCopper
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|992|1004|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1005|1020|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1025|1034|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1035|1046|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1047|1058|copperBoots|field|net.kochma123.machinemagic.handler.ItemHandler|copperBoots
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1076|1087|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1088|1099|ingotCopper|field|net.kochma123.machinemagic.handler.ItemHandler|ingotCopper
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1124|1136|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1137|1152|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1157|1166|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1167|1178|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1179|1188|copperAxe|field|net.kochma123.machinemagic.handler.ItemHandler|copperAxe
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1212|1223|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1224|1235|ingotCopper|field|net.kochma123.machinemagic.handler.ItemHandler|ingotCopper
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1240|1245|Items|class|net.minecraft.init.Items
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1246|1251|STICK|field|net.minecraft.init.Items|STICK
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1256|1268|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1269|1284|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1289|1298|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1299|1310|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1311|1320|copperHoe|field|net.kochma123.machinemagic.handler.ItemHandler|copperHoe
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1344|1355|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1356|1367|ingotCopper|field|net.kochma123.machinemagic.handler.ItemHandler|ingotCopper
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1372|1377|Items|class|net.minecraft.init.Items
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1378|1383|STICK|field|net.minecraft.init.Items|STICK
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1388|1400|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1401|1416|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1421|1430|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1431|1442|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1443|1456|copperPickaxe|field|net.kochma123.machinemagic.handler.ItemHandler|copperPickaxe
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1480|1491|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1492|1503|ingotCopper|field|net.kochma123.machinemagic.handler.ItemHandler|ingotCopper
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1508|1513|Items|class|net.minecraft.init.Items
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1514|1519|STICK|field|net.minecraft.init.Items|STICK
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1524|1536|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1537|1552|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1557|1566|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1567|1578|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1579|1591|copperShovel|field|net.kochma123.machinemagic.handler.ItemHandler|copperShovel
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1615|1626|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1627|1638|ingotCopper|field|net.kochma123.machinemagic.handler.ItemHandler|ingotCopper
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1643|1648|Items|class|net.minecraft.init.Items
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1649|1654|STICK|field|net.minecraft.init.Items|STICK
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1659|1671|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1672|1687|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1692|1701|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1702|1713|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1714|1725|copperSword|field|net.kochma123.machinemagic.handler.ItemHandler|copperSword
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1749|1760|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1761|1772|ingotCopper|field|net.kochma123.machinemagic.handler.ItemHandler|ingotCopper
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1777|1782|Items|class|net.minecraft.init.Items
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1783|1788|STICK|field|net.minecraft.init.Items|STICK
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1796|1808|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1809|1824|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1829|1838|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1839|1850|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1851|1863|emeraldSword|field|net.kochma123.machinemagic.handler.ItemHandler|emeraldSword
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1888|1893|Items|class|net.minecraft.init.Items
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1894|1901|EMERALD|field|net.minecraft.init.Items|EMERALD
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1906|1911|Items|class|net.minecraft.init.Items
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1912|1917|STICK|field|net.minecraft.init.Items|STICK
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1925|1937|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1938|1949|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1950|1962|BlockHandler|class|net.kochma123.machinemagic.handler.BlockHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1963|1972|oreCopper|field|net.kochma123.machinemagic.handler.BlockHandler|oreCopper
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1978|1987|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|1988|1999|ItemHandler|class|net.kochma123.machinemagic.handler.ItemHandler
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|2000|2011|ingotCopper|field|net.kochma123.machinemagic.handler.ItemHandler|ingotCopper
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|2026|2038|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|2039|2048|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/crafting/IRecipe;)V
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|2053|2068|ShapedOreRecipe|class|net.minecraftforge.oredict.ShapedOreRecipe
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|2069|2074|Items|class|net.minecraft.init.Items
+      @|net\kochma123\machinemagic\handler\RecipeHandler.java|2075|2081|BUCKET|field|net.minecraft.init.Items|BUCKET
+   Method End: init()V
+Class End  : net.kochma123.machinemagic.handler.RecipeHandler
+endProcessing "net\kochma123\machinemagic\handler\RecipeHandler.java"
+
+startProcessing "net\kochma123\machinemagic\handler\WorldProviderDimension.java" md5: 24b739f8c9ec8bd78698bf149220d248
+@|net\kochma123\machinemagic\handler\WorldProviderDimension.java|8|42|net.kochma123.machinemagic.handler|package|net.kochma123.machinemagic.handler|(file)
+Class Start: net.kochma123.machinemagic.handler.WorldProviderDimension
+   @|net\kochma123\machinemagic\handler\WorldProviderDimension.java|58|80|WorldProviderDimension|class|net.kochma123.machinemagic.handler.WorldProviderDimension
+Class End  : net.kochma123.machinemagic.handler.WorldProviderDimension
+endProcessing "net\kochma123\machinemagic\handler\WorldProviderDimension.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemArmour.java" md5: 24164db687bb9b8087e05b87d2b7b446
+@|net\kochma123\machinemagic\item\ItemArmour.java|8|39|net.kochma123.machinemagic.item|package|net.kochma123.machinemagic.item|(file)
+Class Start: net.kochma123.machinemagic.item.ItemArmour
+   @|net\kochma123\machinemagic\item\ItemArmour.java|180|190|ItemArmour|class|net.kochma123.machinemagic.item.ItemArmour
+   @|net\kochma123\machinemagic\item\ItemArmour.java|199|227|net.minecraft.item.ItemArmor|class|net.minecraft.item.ItemArmor
+   @|net\kochma123\machinemagic\item\ItemArmour.java|239|256|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+   @|net\kochma123\machinemagic\item\ItemArmour.java|269|275|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\ItemArmour.java|269|275|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\ItemArmour.java|276|280|name|field|net.kochma123.machinemagic.item.ItemArmour|name|
+   Method Start: ItemArmour(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\ItemArmour.java|316|324|material|param|net.kochma123.machinemagic.item.ItemArmour|ItemArmour|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\item\ItemArmour.java|346|350|slot|param|net.kochma123.machinemagic.item.ItemArmour|ItemArmour|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|slot|1
+      @|net\kochma123\machinemagic\item\ItemArmour.java|359|363|name|param|net.kochma123.machinemagic.item.ItemArmour|ItemArmour|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|name|2
+      @|net\kochma123\machinemagic\item\ItemArmour.java|291|301|ItemArmour|method|net.kochma123.machinemagic.item.ItemArmour|ItemArmour|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\ItemArmour.java|302|315|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+      @|net\kochma123\machinemagic\item\ItemArmour.java|326|345|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|net\kochma123\machinemagic\item\ItemArmour.java|352|358|String|class|java.lang.String
+      @|net\kochma123\machinemagic\item\ItemArmour.java|375|383|material|param|net.kochma123.machinemagic.item.ItemArmour|ItemArmour|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\item\ItemArmour.java|388|392|slot|param|net.kochma123.machinemagic.item.ItemArmour|ItemArmour|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|slot|1
+      @|net\kochma123\machinemagic\item\ItemArmour.java|397|412|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\item\ItemArmour.java|413|417|name|param|net.kochma123.machinemagic.item.ItemArmour|ItemArmour|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|name|2
+      @|net\kochma123\machinemagic\item\ItemArmour.java|422|440|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\ItemArmour.java|441|445|name|param|net.kochma123.machinemagic.item.ItemArmour|ItemArmour|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|name|2
+      @|net\kochma123\machinemagic\item\ItemArmour.java|450|464|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\ItemArmour.java|465|469|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\ItemArmour.java|470|481|creativeTab|field|net.kochma123.machinemagic.Main|creativeTab
+      @|net\kochma123\machinemagic\item\ItemArmour.java|491|495|name|field|net.kochma123.machinemagic.item.ItemArmour|name
+      @|net\kochma123\machinemagic\item\ItemArmour.java|498|502|name|param|net.kochma123.machinemagic.item.ItemArmour|ItemArmour|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|name|2
+   Method End: ItemArmour(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\ItemArmour.java|555|559|item|param|net.kochma123.machinemagic.item.ItemArmour|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|net\kochma123\machinemagic\item\ItemArmour.java|510|518|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\item\ItemArmour.java|532|549|registerItemModel|method|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\ItemArmour.java|550|554|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\item\ItemArmour.java|565|569|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\ItemArmour.java|570|575|proxy|field|net.kochma123.machinemagic.Main|proxy
+      @|net\kochma123\machinemagic\item\ItemArmour.java|576|596|registerItemRenderer|method|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|net\kochma123\machinemagic\item\ItemArmour.java|606|610|name|field|net.kochma123.machinemagic.item.ItemArmour|name
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+Class End  : net.kochma123.machinemagic.item.ItemArmour
+endProcessing "net\kochma123\machinemagic\item\ItemArmour.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemBase.java" md5: df22ce320a3a97a9d567cb50ebcb2c0b
+@|net\kochma123\machinemagic\item\ItemBase.java|8|39|net.kochma123.machinemagic.item|package|net.kochma123.machinemagic.item|(file)
+Class Start: net.kochma123.machinemagic.item.ItemBase
+   @|net\kochma123\machinemagic\item\ItemBase.java|175|183|ItemBase|class|net.kochma123.machinemagic.item.ItemBase
+   @|net\kochma123\machinemagic\item\ItemBase.java|192|196|Item|class|net.minecraft.item.Item
+   @|net\kochma123\machinemagic\item\ItemBase.java|208|225|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+   @|net\kochma123\machinemagic\item\ItemBase.java|239|245|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\ItemBase.java|239|245|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\ItemBase.java|246|250|name|field|net.kochma123.machinemagic.item.ItemBase|name|
+   Method Start: ItemBase(Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\ItemBase.java|278|282|name|param|net.kochma123.machinemagic.item.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|net\kochma123\machinemagic\item\ItemBase.java|262|270|ItemBase|method|net.kochma123.machinemagic.item.ItemBase|ItemBase|(Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\ItemBase.java|271|277|String|class|java.lang.String
+      @|net\kochma123\machinemagic\item\ItemBase.java|292|296|name|field|net.kochma123.machinemagic.item.ItemBase|name
+      @|net\kochma123\machinemagic\item\ItemBase.java|299|303|name|param|net.kochma123.machinemagic.item.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|net\kochma123\machinemagic\item\ItemBase.java|307|325|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\ItemBase.java|326|330|name|param|net.kochma123.machinemagic.item.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|net\kochma123\machinemagic\item\ItemBase.java|335|350|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\item\ItemBase.java|351|355|name|param|net.kochma123.machinemagic.item.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|net\kochma123\machinemagic\item\ItemBase.java|360|374|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\ItemBase.java|375|379|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\ItemBase.java|380|391|creativeTab|field|net.kochma123.machinemagic.Main|creativeTab
+   Method End: ItemBase(Ljava/lang/String;)V
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\ItemBase.java|435|439|item|param|net.kochma123.machinemagic.item.ItemBase|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|net\kochma123\machinemagic\item\ItemBase.java|412|429|registerItemModel|method|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\ItemBase.java|430|434|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\item\ItemBase.java|444|448|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\ItemBase.java|449|454|proxy|field|net.kochma123.machinemagic.Main|proxy
+      @|net\kochma123\machinemagic\item\ItemBase.java|455|475|registerItemRenderer|method|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|net\kochma123\machinemagic\item\ItemBase.java|476|480|item|param|net.kochma123.machinemagic.item.ItemBase|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|net\kochma123\machinemagic\item\ItemBase.java|485|489|name|field|net.kochma123.machinemagic.item.ItemBase|name
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+   Method Start: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/kochma123/machinemagic/item/ItemBase;
+      @|net\kochma123\machinemagic\item\ItemBase.java|553|556|tab|param|net.kochma123.machinemagic.item.ItemBase|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/kochma123/machinemagic/item/ItemBase;|tab|0
+      @|net\kochma123\machinemagic\item\ItemBase.java|499|507|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\item\ItemBase.java|516|524|ItemBase|class|net.kochma123.machinemagic.item.ItemBase
+      @|net\kochma123\machinemagic\item\ItemBase.java|525|539|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\ItemBase.java|540|552|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|net\kochma123\machinemagic\item\ItemBase.java|568|582|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\ItemBase.java|583|586|tab|param|net.kochma123.machinemagic.item.ItemBase|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/kochma123/machinemagic/item/ItemBase;|tab|0
+   Method End: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/kochma123/machinemagic/item/ItemBase;
+Class End  : net.kochma123.machinemagic.item.ItemBase
+endProcessing "net\kochma123\machinemagic\item\ItemBase.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemCorn.java" md5: ffb14b6152b701ae578528b3c414f7a7
+@|net\kochma123\machinemagic\item\ItemCorn.java|8|39|net.kochma123.machinemagic.item|package|net.kochma123.machinemagic.item|(file)
+Class Start: net.kochma123.machinemagic.item.ItemCorn
+   @|net\kochma123\machinemagic\item\ItemCorn.java|213|221|ItemCorn|class|net.kochma123.machinemagic.item.ItemCorn
+   @|net\kochma123\machinemagic\item\ItemCorn.java|230|238|ItemFood|class|net.minecraft.item.ItemFood
+   @|net\kochma123\machinemagic\item\ItemCorn.java|250|267|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+   @|net\kochma123\machinemagic\item\ItemCorn.java|269|280|ItemOreDict|class|net.kochma123.machinemagic.item.ItemOreDict
+   Method Start: ItemCorn()V
+      @|net\kochma123\machinemagic\item\ItemCorn.java|292|300|ItemCorn|method|net.kochma123.machinemagic.item.ItemCorn|ItemCorn|()V
+      @|net\kochma123\machinemagic\item\ItemCorn.java|332|350|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\ItemCorn.java|362|377|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\item\ItemCorn.java|389|403|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\ItemCorn.java|404|408|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\ItemCorn.java|409|420|creativeTab|field|net.kochma123.machinemagic.Main|creativeTab
+   Method End: ItemCorn()V
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\ItemCorn.java|474|478|item|param|net.kochma123.machinemagic.item.ItemCorn|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|net\kochma123\machinemagic\item\ItemCorn.java|429|437|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\item\ItemCorn.java|451|468|registerItemModel|method|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\ItemCorn.java|469|473|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\item\ItemCorn.java|484|488|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\ItemCorn.java|489|494|proxy|field|net.kochma123.machinemagic.Main|proxy
+      @|net\kochma123\machinemagic\item\ItemCorn.java|495|515|registerItemRenderer|method|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+   Method Start: initOreDict()V
+      @|net\kochma123\machinemagic\item\ItemCorn.java|540|548|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\item\ItemCorn.java|562|573|initOreDict|method|net.kochma123.machinemagic.item.ItemOreDict|initOreDict|()V
+      @|net\kochma123\machinemagic\item\ItemCorn.java|580|593|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
+      @|net\kochma123\machinemagic\item\ItemCorn.java|594|605|registerOre|method|net.minecraftforge.oredict.OreDictionary|registerOre|(Ljava/lang/String;Lnet/minecraft/item/Item;)V
+   Method End: initOreDict()V
+Class End  : net.kochma123.machinemagic.item.ItemCorn
+endProcessing "net\kochma123\machinemagic\item\ItemCorn.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemCornSeed.java" md5: d011f0b62fa17a791c560734f73e6516
+@|net\kochma123\machinemagic\item\ItemCornSeed.java|8|39|net.kochma123.machinemagic.item|package|net.kochma123.machinemagic.item|(file)
+Class Start: net.kochma123.machinemagic.item.ItemCornSeed
+   @|net\kochma123\machinemagic\item\ItemCornSeed.java|255|267|ItemCornSeed|class|net.kochma123.machinemagic.item.ItemCornSeed
+   @|net\kochma123\machinemagic\item\ItemCornSeed.java|276|285|ItemSeeds|class|net.minecraft.item.ItemSeeds
+   @|net\kochma123\machinemagic\item\ItemCornSeed.java|297|314|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+   Method Start: ItemCornSeed()V
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|326|338|ItemCornSeed|method|net.kochma123.machinemagic.item.ItemCornSeed|ItemCornSeed|()V
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|351|363|BlockHandler|class|net.kochma123.machinemagic.handler.BlockHandler
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|364|372|cropCorn|field|net.kochma123.machinemagic.handler.BlockHandler|cropCorn
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|374|380|Blocks|class|net.minecraft.init.Blocks
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|381|389|FARMLAND|field|net.minecraft.init.Blocks|FARMLAND
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|394|412|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|429|444|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|461|475|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|476|480|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|481|492|creativeTab|field|net.kochma123.machinemagic.Main|creativeTab
+   Method End: ItemCornSeed()V
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|546|550|item|param|net.kochma123.machinemagic.item.ItemCornSeed|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|501|509|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|523|540|registerItemModel|method|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|541|545|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|556|560|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|561|566|proxy|field|net.kochma123.machinemagic.Main|proxy
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|567|587|registerItemRenderer|method|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|net\kochma123\machinemagic\item\ItemCornSeed.java|588|592|item|param|net.kochma123.machinemagic.item.ItemCornSeed|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+Class End  : net.kochma123.machinemagic.item.ItemCornSeed
+endProcessing "net\kochma123\machinemagic\item\ItemCornSeed.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemModelProvider.java" md5: 5f7a320013e595afad7351d40c108f56
+@|net\kochma123\machinemagic\item\ItemModelProvider.java|8|39|net.kochma123.machinemagic.item|package|net.kochma123.machinemagic.item|(file)
+Class Start: net.kochma123.machinemagic.item.ItemModelProvider
+   @|net\kochma123\machinemagic\item\ItemModelProvider.java|92|109|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\ItemModelProvider.java|142|146|item|param|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|net\kochma123\machinemagic\item\ItemModelProvider.java|119|136|registerItemModel|method|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\ItemModelProvider.java|137|141|Item|class|net.minecraft.item.Item
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+Class End  : net.kochma123.machinemagic.item.ItemModelProvider
+endProcessing "net\kochma123\machinemagic\item\ItemModelProvider.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemOre.java" md5: ae2a22a1a1a1311a2ef6d694fac7445e
+@|net\kochma123\machinemagic\item\ItemOre.java|8|39|net.kochma123.machinemagic.item|package|net.kochma123.machinemagic.item|(file)
+Class Start: net.kochma123.machinemagic.item.ItemOre
+   @|net\kochma123\machinemagic\item\ItemOre.java|105|112|ItemOre|class|net.kochma123.machinemagic.item.ItemOre
+   @|net\kochma123\machinemagic\item\ItemOre.java|121|129|ItemBase|class|net.kochma123.machinemagic.item.ItemBase
+   @|net\kochma123\machinemagic\item\ItemOre.java|141|152|ItemOreDict|class|net.kochma123.machinemagic.item.ItemOreDict
+   @|net\kochma123\machinemagic\item\ItemOre.java|165|171|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\ItemOre.java|165|171|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\ItemOre.java|172|179|oreName|field|net.kochma123.machinemagic.item.ItemOre|oreName|
+   Method Start: ItemOre(Ljava/lang/String;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\ItemOre.java|205|209|name|param|net.kochma123.machinemagic.item.ItemOre|ItemOre|(Ljava/lang/String;Ljava/lang/String;)V|name|0
+      @|net\kochma123\machinemagic\item\ItemOre.java|218|225|oreName|param|net.kochma123.machinemagic.item.ItemOre|ItemOre|(Ljava/lang/String;Ljava/lang/String;)V|oreName|1
+      @|net\kochma123\machinemagic\item\ItemOre.java|190|197|ItemOre|method|net.kochma123.machinemagic.item.ItemOre|ItemOre|(Ljava/lang/String;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\ItemOre.java|198|204|String|class|java.lang.String
+      @|net\kochma123\machinemagic\item\ItemOre.java|211|217|String|class|java.lang.String
+      @|net\kochma123\machinemagic\item\ItemOre.java|237|241|name|param|net.kochma123.machinemagic.item.ItemOre|ItemOre|(Ljava/lang/String;Ljava/lang/String;)V|name|0
+      @|net\kochma123\machinemagic\item\ItemOre.java|254|261|oreName|field|net.kochma123.machinemagic.item.ItemOre|oreName
+      @|net\kochma123\machinemagic\item\ItemOre.java|263|270|oreName|param|net.kochma123.machinemagic.item.ItemOre|ItemOre|(Ljava/lang/String;Ljava/lang/String;)V|oreName|1
+   Method End: ItemOre(Ljava/lang/String;Ljava/lang/String;)V
+   Method Start: initOreDict()V
+      @|net\kochma123\machinemagic\item\ItemOre.java|278|286|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\item\ItemOre.java|300|311|initOreDict|method|net.kochma123.machinemagic.item.ItemOreDict|initOreDict|()V
+      @|net\kochma123\machinemagic\item\ItemOre.java|318|331|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
+      @|net\kochma123\machinemagic\item\ItemOre.java|332|343|registerOre|method|net.minecraftforge.oredict.OreDictionary|registerOre|(Ljava/lang/String;Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\ItemOre.java|344|351|oreName|field|net.kochma123.machinemagic.item.ItemOre|oreName
+   Method End: initOreDict()V
+Class End  : net.kochma123.machinemagic.item.ItemOre
+endProcessing "net\kochma123\machinemagic\item\ItemOre.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemOreDict.java" md5: 438b62ea9782c87fd986291bb5244f1b
+@|net\kochma123\machinemagic\item\ItemOreDict.java|8|39|net.kochma123.machinemagic.item|package|net.kochma123.machinemagic.item|(file)
+Class Start: net.kochma123.machinemagic.item.ItemOreDict
+   @|net\kochma123\machinemagic\item\ItemOreDict.java|59|70|ItemOreDict|class|net.kochma123.machinemagic.item.ItemOreDict
+   Method Start: initOreDict()V
+      @|net\kochma123\machinemagic\item\ItemOreDict.java|80|91|initOreDict|method|net.kochma123.machinemagic.item.ItemOreDict|initOreDict|()V
+   Method End: initOreDict()V
+Class End  : net.kochma123.machinemagic.item.ItemOreDict
+endProcessing "net\kochma123\machinemagic\item\ItemOreDict.java"
+
+startProcessing "net\kochma123\machinemagic\item\tool\ItemAxe.java" md5: 4e47771675246716181aea12ef25ce72
+@|net\kochma123\machinemagic\item\tool\ItemAxe.java|8|44|net.kochma123.machinemagic.item.tool|package|net.kochma123.machinemagic.item.tool|(file)
+Class Start: net.kochma123.machinemagic.item.tool.ItemAxe
+   @|net\kochma123\machinemagic\item\tool\ItemAxe.java|191|198|ItemAxe|class|net.kochma123.machinemagic.item.tool.ItemAxe
+   @|net\kochma123\machinemagic\item\tool\ItemAxe.java|207|233|net.minecraft.item.ItemAxe|class|net.minecraft.item.ItemAxe
+   @|net\kochma123\machinemagic\item\tool\ItemAxe.java|245|262|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+   @|net\kochma123\machinemagic\item\tool\ItemAxe.java|275|281|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\tool\ItemAxe.java|275|281|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\tool\ItemAxe.java|282|286|name|field|net.kochma123.machinemagic.item.tool.ItemAxe|name|
+   Method Start: ItemAxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|318|326|material|param|net.kochma123.machinemagic.item.tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|335|339|name|param|net.kochma123.machinemagic.item.tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|297|304|ItemAxe|method|net.kochma123.machinemagic.item.tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|305|317|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|328|334|String|class|java.lang.String
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|351|359|material|param|net.kochma123.machinemagic.item.tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|374|389|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|390|394|name|param|net.kochma123.machinemagic.item.tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|399|417|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|418|422|name|param|net.kochma123.machinemagic.item.tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|427|441|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|442|446|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|447|458|creativeTab|field|net.kochma123.machinemagic.Main|creativeTab
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|468|472|name|field|net.kochma123.machinemagic.item.tool.ItemAxe|name
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|475|479|name|param|net.kochma123.machinemagic.item.tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+   Method End: ItemAxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|532|536|item|param|net.kochma123.machinemagic.item.tool.ItemAxe|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|487|495|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|509|526|registerItemModel|method|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|527|531|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|542|546|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|547|552|proxy|field|net.kochma123.machinemagic.Main|proxy
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|553|573|registerItemRenderer|method|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemAxe.java|583|587|name|field|net.kochma123.machinemagic.item.tool.ItemAxe|name
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+Class End  : net.kochma123.machinemagic.item.tool.ItemAxe
+endProcessing "net\kochma123\machinemagic\item\tool\ItemAxe.java"
+
+startProcessing "net\kochma123\machinemagic\item\tool\ItemHoe.java" md5: 8beb44270836dfef73ebfb2ba4584d15
+@|net\kochma123\machinemagic\item\tool\ItemHoe.java|8|44|net.kochma123.machinemagic.item.tool|package|net.kochma123.machinemagic.item.tool|(file)
+Class Start: net.kochma123.machinemagic.item.tool.ItemHoe
+   @|net\kochma123\machinemagic\item\tool\ItemHoe.java|191|198|ItemHoe|class|net.kochma123.machinemagic.item.tool.ItemHoe
+   @|net\kochma123\machinemagic\item\tool\ItemHoe.java|207|233|net.minecraft.item.ItemHoe|class|net.minecraft.item.ItemHoe
+   @|net\kochma123\machinemagic\item\tool\ItemHoe.java|245|262|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+   @|net\kochma123\machinemagic\item\tool\ItemHoe.java|274|280|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\tool\ItemHoe.java|274|280|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\tool\ItemHoe.java|281|285|name|field|net.kochma123.machinemagic.item.tool.ItemHoe|name|
+   Method Start: ItemHoe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|318|326|material|param|net.kochma123.machinemagic.item.tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|335|339|name|param|net.kochma123.machinemagic.item.tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|297|304|ItemHoe|method|net.kochma123.machinemagic.item.tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|305|317|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|328|334|String|class|java.lang.String
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|351|359|material|param|net.kochma123.machinemagic.item.tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|364|379|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|380|384|name|param|net.kochma123.machinemagic.item.tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|389|407|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|408|412|name|param|net.kochma123.machinemagic.item.tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|417|431|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|432|436|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|437|448|creativeTab|field|net.kochma123.machinemagic.Main|creativeTab
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|458|462|name|field|net.kochma123.machinemagic.item.tool.ItemHoe|name
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|465|469|name|param|net.kochma123.machinemagic.item.tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+   Method End: ItemHoe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|522|526|item|param|net.kochma123.machinemagic.item.tool.ItemHoe|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|477|485|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|499|516|registerItemModel|method|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|517|521|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|532|536|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|537|542|proxy|field|net.kochma123.machinemagic.Main|proxy
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|543|563|registerItemRenderer|method|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemHoe.java|573|577|name|field|net.kochma123.machinemagic.item.tool.ItemHoe|name
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+Class End  : net.kochma123.machinemagic.item.tool.ItemHoe
+endProcessing "net\kochma123\machinemagic\item\tool\ItemHoe.java"
+
+startProcessing "net\kochma123\machinemagic\item\tool\ItemPickaxe.java" md5: 5ae830b559ccc65e4fd028c5b43ce180
+@|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|8|44|net.kochma123.machinemagic.item.tool|package|net.kochma123.machinemagic.item.tool|(file)
+Class Start: net.kochma123.machinemagic.item.tool.ItemPickaxe
+   @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|191|202|ItemPickaxe|class|net.kochma123.machinemagic.item.tool.ItemPickaxe
+   @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|211|241|net.minecraft.item.ItemPickaxe|class|net.minecraft.item.ItemPickaxe
+   @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|253|270|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+   @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|283|289|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|283|289|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|290|294|name|field|net.kochma123.machinemagic.item.tool.ItemPickaxe|name|
+   Method Start: ItemPickaxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|330|338|material|param|net.kochma123.machinemagic.item.tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|347|351|name|param|net.kochma123.machinemagic.item.tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|305|316|ItemPickaxe|method|net.kochma123.machinemagic.item.tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|317|329|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|340|346|String|class|java.lang.String
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|363|371|material|param|net.kochma123.machinemagic.item.tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|376|391|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|392|396|name|param|net.kochma123.machinemagic.item.tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|401|419|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|420|424|name|param|net.kochma123.machinemagic.item.tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|429|443|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|444|448|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|449|460|creativeTab|field|net.kochma123.machinemagic.Main|creativeTab
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|470|474|name|field|net.kochma123.machinemagic.item.tool.ItemPickaxe|name
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|477|481|name|param|net.kochma123.machinemagic.item.tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+   Method End: ItemPickaxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|535|539|item|param|net.kochma123.machinemagic.item.tool.ItemPickaxe|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|490|498|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|512|529|registerItemModel|method|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|530|534|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|545|549|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|550|555|proxy|field|net.kochma123.machinemagic.Main|proxy
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|556|576|registerItemRenderer|method|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemPickaxe.java|586|590|name|field|net.kochma123.machinemagic.item.tool.ItemPickaxe|name
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+Class End  : net.kochma123.machinemagic.item.tool.ItemPickaxe
+endProcessing "net\kochma123\machinemagic\item\tool\ItemPickaxe.java"
+
+startProcessing "net\kochma123\machinemagic\item\tool\ItemShovel.java" md5: 486b587e0bc7ce7108f1d96d593129ed
+@|net\kochma123\machinemagic\item\tool\ItemShovel.java|8|44|net.kochma123.machinemagic.item.tool|package|net.kochma123.machinemagic.item.tool|(file)
+Class Start: net.kochma123.machinemagic.item.tool.ItemShovel
+   @|net\kochma123\machinemagic\item\tool\ItemShovel.java|228|238|ItemShovel|class|net.kochma123.machinemagic.item.tool.ItemShovel
+   @|net\kochma123\machinemagic\item\tool\ItemShovel.java|247|256|ItemSpade|class|net.minecraft.item.ItemSpade
+   @|net\kochma123\machinemagic\item\tool\ItemShovel.java|268|285|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+   @|net\kochma123\machinemagic\item\tool\ItemShovel.java|299|305|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\tool\ItemShovel.java|299|305|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\tool\ItemShovel.java|306|310|name|field|net.kochma123.machinemagic.item.tool.ItemShovel|name|
+   Method Start: ItemShovel(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|345|353|material|param|net.kochma123.machinemagic.item.tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|362|366|name|param|net.kochma123.machinemagic.item.tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|321|331|ItemShovel|method|net.kochma123.machinemagic.item.tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|332|344|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|355|361|String|class|java.lang.String
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|378|386|material|param|net.kochma123.machinemagic.item.tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|391|406|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|407|411|name|param|net.kochma123.machinemagic.item.tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|416|434|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|435|439|name|param|net.kochma123.machinemagic.item.tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|444|458|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|459|463|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|464|475|creativeTab|field|net.kochma123.machinemagic.Main|creativeTab
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|485|489|name|field|net.kochma123.machinemagic.item.tool.ItemShovel|name
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|492|496|name|param|net.kochma123.machinemagic.item.tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+   Method End: ItemShovel(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|550|554|item|param|net.kochma123.machinemagic.item.tool.ItemShovel|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|505|513|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|527|544|registerItemModel|method|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|545|549|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|560|564|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|565|570|proxy|field|net.kochma123.machinemagic.Main|proxy
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|571|591|registerItemRenderer|method|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemShovel.java|601|605|name|field|net.kochma123.machinemagic.item.tool.ItemShovel|name
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+Class End  : net.kochma123.machinemagic.item.tool.ItemShovel
+endProcessing "net\kochma123\machinemagic\item\tool\ItemShovel.java"
+
+startProcessing "net\kochma123\machinemagic\item\tool\ItemSword.java" md5: 0368062676dcea6c04ee8a7e0a50ac64
+@|net\kochma123\machinemagic\item\tool\ItemSword.java|8|44|net.kochma123.machinemagic.item.tool|package|net.kochma123.machinemagic.item.tool|(file)
+Class Start: net.kochma123.machinemagic.item.tool.ItemSword
+   @|net\kochma123\machinemagic\item\tool\ItemSword.java|191|200|ItemSword|class|net.kochma123.machinemagic.item.tool.ItemSword
+   @|net\kochma123\machinemagic\item\tool\ItemSword.java|209|237|net.minecraft.item.ItemSword|class|net.minecraft.item.ItemSword
+   @|net\kochma123\machinemagic\item\tool\ItemSword.java|249|266|ItemModelProvider|class|net.kochma123.machinemagic.item.ItemModelProvider
+   @|net\kochma123\machinemagic\item\tool\ItemSword.java|279|285|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\tool\ItemSword.java|279|285|String|class|java.lang.String
+   @|net\kochma123\machinemagic\item\tool\ItemSword.java|286|290|name|field|net.kochma123.machinemagic.item.tool.ItemSword|name|
+   Method Start: ItemSword(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|324|332|material|param|net.kochma123.machinemagic.item.tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|340|344|name|param|net.kochma123.machinemagic.item.tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|301|310|ItemSword|method|net.kochma123.machinemagic.item.tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|311|323|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|333|339|String|class|java.lang.String
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|356|364|material|param|net.kochma123.machinemagic.item.tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|369|384|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|385|389|name|param|net.kochma123.machinemagic.item.tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|394|412|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|413|417|name|param|net.kochma123.machinemagic.item.tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|422|436|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|437|441|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|442|453|creativeTab|field|net.kochma123.machinemagic.Main|creativeTab
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|463|467|name|field|net.kochma123.machinemagic.item.tool.ItemSword|name
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|470|474|name|param|net.kochma123.machinemagic.item.tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+   Method End: ItemSword(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|527|531|item|param|net.kochma123.machinemagic.item.tool.ItemSword|registerItemModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|482|490|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|504|521|registerItemModel|method|net.kochma123.machinemagic.item.ItemModelProvider|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|522|526|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|537|541|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|542|547|proxy|field|net.kochma123.machinemagic.Main|proxy
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|548|568|registerItemRenderer|method|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|net\kochma123\machinemagic\item\tool\ItemSword.java|578|582|name|field|net.kochma123.machinemagic.item.tool.ItemSword|name
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+Class End  : net.kochma123.machinemagic.item.tool.ItemSword
+endProcessing "net\kochma123\machinemagic\item\tool\ItemSword.java"
+
+startProcessing "net\kochma123\machinemagic\proxy\ClientProxy.java" md5: 1b403f0a036a175c3fa72c72c125d2ac
+@|net\kochma123\machinemagic\proxy\ClientProxy.java|8|40|net.kochma123.machinemagic.proxy|package|net.kochma123.machinemagic.proxy|(file)
+Class Start: net.kochma123.machinemagic.proxy.ClientProxy
+   @|net\kochma123\machinemagic\proxy\ClientProxy.java|253|264|ClientProxy|class|net.kochma123.machinemagic.proxy.ClientProxy
+   @|net\kochma123\machinemagic\proxy\ClientProxy.java|273|284|CommonProxy|class|net.kochma123.machinemagic.proxy.CommonProxy
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|337|341|item|param|net.kochma123.machinemagic.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|347|351|meta|param|net.kochma123.machinemagic.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|360|362|id|param|net.kochma123.machinemagic.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|289|297|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|311|331|registerItemRenderer|method|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|332|336|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|353|359|String|class|java.lang.String
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|368|379|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|380|410|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|411|415|item|param|net.kochma123.machinemagic.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|417|421|meta|param|net.kochma123.machinemagic.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|427|448|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|449|453|Main|class|net.kochma123.machinemagic.Main
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|454|459|MODID|field|net.kochma123.machinemagic.Main|MODID
+      @|net\kochma123\machinemagic\proxy\ClientProxy.java|468|470|id|param|net.kochma123.machinemagic.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : net.kochma123.machinemagic.proxy.ClientProxy
+endProcessing "net\kochma123\machinemagic\proxy\ClientProxy.java"
+
+startProcessing "net\kochma123\machinemagic\proxy\CommonProxy.java" md5: 772148c3910f6df76407df330a851e79
+@|net\kochma123\machinemagic\proxy\CommonProxy.java|8|40|net.kochma123.machinemagic.proxy|package|net.kochma123.machinemagic.proxy|(file)
+Class Start: net.kochma123.machinemagic.proxy.CommonProxy
+   @|net\kochma123\machinemagic\proxy\CommonProxy.java|89|100|CommonProxy|class|net.kochma123.machinemagic.proxy.CommonProxy
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|net\kochma123\machinemagic\proxy\CommonProxy.java|142|146|item|param|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|net\kochma123\machinemagic\proxy\CommonProxy.java|152|156|meta|param|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|net\kochma123\machinemagic\proxy\CommonProxy.java|165|167|id|param|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|net\kochma123\machinemagic\proxy\CommonProxy.java|116|136|registerItemRenderer|method|net.kochma123.machinemagic.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|net\kochma123\machinemagic\proxy\CommonProxy.java|137|141|Item|class|net.minecraft.item.Item
+      @|net\kochma123\machinemagic\proxy\CommonProxy.java|158|164|String|class|java.lang.String
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : net.kochma123.machinemagic.proxy.CommonProxy
+endProcessing "net\kochma123\machinemagic\proxy\CommonProxy.java"
+
+startProcessing "net\kochma123\machinemagic\world\WorldGen.java" md5: deb7d69c46a52a09a31d5078bc240755
+@|net\kochma123\machinemagic\world\WorldGen.java|8|40|net.kochma123.machinemagic.world|package|net.kochma123.machinemagic.world|(file)
+Class Start: net.kochma123.machinemagic.world.WorldGen
+   @|net\kochma123\machinemagic\world\WorldGen.java|469|477|WorldGen|class|net.kochma123.machinemagic.world.WorldGen
+   @|net\kochma123\machinemagic\world\WorldGen.java|489|504|IWorldGenerator|class|net.minecraftforge.fml.common.IWorldGenerator
+   Method Start: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|net\kochma123\machinemagic\world\WorldGen.java|548|554|random|param|net.kochma123.machinemagic.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net\kochma123\machinemagic\world\WorldGen.java|560|566|chunkX|param|net.kochma123.machinemagic.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|net\kochma123\machinemagic\world\WorldGen.java|572|578|chunkZ|param|net.kochma123.machinemagic.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|net\kochma123\machinemagic\world\WorldGen.java|586|591|world|param|net.kochma123.machinemagic.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net\kochma123\machinemagic\world\WorldGen.java|609|623|chunkGenerator|param|net.kochma123.machinemagic.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkGenerator|4
+      @|net\kochma123\machinemagic\world\WorldGen.java|643|656|chunkProvider|param|net.kochma123.machinemagic.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkProvider|5
+      @|net\kochma123\machinemagic\world\WorldGen.java|510|518|Override|class|java.lang.Override
+      @|net\kochma123\machinemagic\world\WorldGen.java|532|540|generate|method|net.minecraftforge.fml.common.IWorldGenerator|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|net\kochma123\machinemagic\world\WorldGen.java|541|547|Random|class|java.util.Random
+      @|net\kochma123\machinemagic\world\WorldGen.java|580|585|World|class|net.minecraft.world.World
+      @|net\kochma123\machinemagic\world\WorldGen.java|593|608|IChunkGenerator|class|net.minecraft.world.chunk.IChunkGenerator
+      @|net\kochma123\machinemagic\world\WorldGen.java|628|642|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider
+      @|net\kochma123\machinemagic\world\WorldGen.java|666|671|world|param|net.kochma123.machinemagic.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net\kochma123\machinemagic\world\WorldGen.java|672|680|provider|field|net.minecraft.world.World|provider
+      @|net\kochma123\machinemagic\world\WorldGen.java|681|693|getDimension|method|net.minecraft.world.WorldProvider|getDimension|()I
+      @|net\kochma123\machinemagic\world\WorldGen.java|724|741|generateOverworld|method|net.kochma123.machinemagic.world.WorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|net\kochma123\machinemagic\world\WorldGen.java|742|748|random|param|net.kochma123.machinemagic.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net\kochma123\machinemagic\world\WorldGen.java|750|756|chunkX|param|net.kochma123.machinemagic.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|net\kochma123\machinemagic\world\WorldGen.java|758|764|chunkZ|param|net.kochma123.machinemagic.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|net\kochma123\machinemagic\world\WorldGen.java|766|771|world|param|net.kochma123.machinemagic.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net\kochma123\machinemagic\world\WorldGen.java|773|787|chunkGenerator|param|net.kochma123.machinemagic.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkGenerator|4
+      @|net\kochma123\machinemagic\world\WorldGen.java|789|802|chunkProvider|param|net.kochma123.machinemagic.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkProvider|5
+   Method End: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+   Method Start: generateOverworld(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|net\kochma123\machinemagic\world\WorldGen.java|852|858|random|param|net.kochma123.machinemagic.world.WorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net\kochma123\machinemagic\world\WorldGen.java|864|870|chunkX|param|net.kochma123.machinemagic.world.WorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|net\kochma123\machinemagic\world\WorldGen.java|876|882|chunkZ|param|net.kochma123.machinemagic.world.WorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|net\kochma123\machinemagic\world\WorldGen.java|890|895|world|param|net.kochma123.machinemagic.world.WorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net\kochma123\machinemagic\world\WorldGen.java|913|927|chunkGenerator|param|net.kochma123.machinemagic.world.WorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkGenerator|4
+      @|net\kochma123\machinemagic\world\WorldGen.java|947|960|chunkProvider|param|net.kochma123.machinemagic.world.WorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkProvider|5
+      @|net\kochma123\machinemagic\world\WorldGen.java|827|844|generateOverworld|method|net.kochma123.machinemagic.world.WorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|net\kochma123\machinemagic\world\WorldGen.java|845|851|Random|class|java.util.Random
+      @|net\kochma123\machinemagic\world\WorldGen.java|884|889|World|class|net.minecraft.world.World
+      @|net\kochma123\machinemagic\world\WorldGen.java|897|912|IChunkGenerator|class|net.minecraft.world.chunk.IChunkGenerator
+      @|net\kochma123\machinemagic\world\WorldGen.java|932|946|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider
+      @|net\kochma123\machinemagic\world\WorldGen.java|966|977|generateOre|method|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V
+      @|net\kochma123\machinemagic\world\WorldGen.java|978|990|BlockHandler|class|net.kochma123.machinemagic.handler.BlockHandler
+      @|net\kochma123\machinemagic\world\WorldGen.java|991|1000|oreCopper|field|net.kochma123.machinemagic.handler.BlockHandler|oreCopper
+      @|net\kochma123\machinemagic\world\WorldGen.java|1001|1016|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|net\kochma123\machinemagic\world\WorldGen.java|1020|1025|world|param|net.kochma123.machinemagic.world.WorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net\kochma123\machinemagic\world\WorldGen.java|1027|1033|random|param|net.kochma123.machinemagic.world.WorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net\kochma123\machinemagic\world\WorldGen.java|1035|1041|chunkX|param|net.kochma123.machinemagic.world.WorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|net\kochma123\machinemagic\world\WorldGen.java|1048|1054|chunkZ|param|net.kochma123.machinemagic.world.WorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|net\kochma123\machinemagic\world\WorldGen.java|1077|1083|random|param|net.kochma123.machinemagic.world.WorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net\kochma123\machinemagic\world\WorldGen.java|1084|1091|nextInt|method|java.util.Random|nextInt|(I)I
+   Method End: generateOverworld(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+   Method Start: generateOre(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V
+      @|net\kochma123\machinemagic\world\WorldGen.java|1142|1145|ore|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|ore|0
+      @|net\kochma123\machinemagic\world\WorldGen.java|1153|1158|world|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|world|1
+      @|net\kochma123\machinemagic\world\WorldGen.java|1167|1173|random|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|random|2
+      @|net\kochma123\machinemagic\world\WorldGen.java|1179|1180|x|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|x|3
+      @|net\kochma123\machinemagic\world\WorldGen.java|1186|1187|z|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|z|4
+      @|net\kochma123\machinemagic\world\WorldGen.java|1193|1197|minY|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|minY|5
+      @|net\kochma123\machinemagic\world\WorldGen.java|1203|1207|maxY|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|maxY|6
+      @|net\kochma123\machinemagic\world\WorldGen.java|1213|1217|size|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|size|7
+      @|net\kochma123\machinemagic\world\WorldGen.java|1226|1233|chances|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|chances|8
+      @|net\kochma123\machinemagic\world\WorldGen.java|1118|1129|generateOre|method|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V
+      @|net\kochma123\machinemagic\world\WorldGen.java|1130|1141|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|net\kochma123\machinemagic\world\WorldGen.java|1147|1152|World|class|net.minecraft.world.World
+      @|net\kochma123\machinemagic\world\WorldGen.java|1160|1166|Random|class|java.util.Random
+      @|net\kochma123\machinemagic\world\WorldGen.java|1252|1256|maxY|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|maxY|6
+      @|net\kochma123\machinemagic\world\WorldGen.java|1259|1263|minY|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|minY|5
+      @|net\kochma123\machinemagic\world\WorldGen.java|1288|1295|chances|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|chances|8
+      @|net\kochma123\machinemagic\world\WorldGen.java|1307|1315|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|net\kochma123\machinemagic\world\WorldGen.java|1326|1334|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|net\kochma123\machinemagic\world\WorldGen.java|1335|1336|x|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|x|3
+      @|net\kochma123\machinemagic\world\WorldGen.java|1339|1345|random|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|random|2
+      @|net\kochma123\machinemagic\world\WorldGen.java|1346|1353|nextInt|method|java.util.Random|nextInt|(I)I
+      @|net\kochma123\machinemagic\world\WorldGen.java|1359|1363|minY|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|minY|5
+      @|net\kochma123\machinemagic\world\WorldGen.java|1366|1372|random|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|random|2
+      @|net\kochma123\machinemagic\world\WorldGen.java|1373|1380|nextInt|method|java.util.Random|nextInt|(I)I
+      @|net\kochma123\machinemagic\world\WorldGen.java|1390|1391|z|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|z|4
+      @|net\kochma123\machinemagic\world\WorldGen.java|1394|1400|random|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|random|2
+      @|net\kochma123\machinemagic\world\WorldGen.java|1401|1408|nextInt|method|java.util.Random|nextInt|(I)I
+      @|net\kochma123\machinemagic\world\WorldGen.java|1419|1434|WorldGenMinable|class|net.minecraft.world.gen.feature.WorldGenMinable
+      @|net\kochma123\machinemagic\world\WorldGen.java|1451|1466|WorldGenMinable|class|net.minecraft.world.gen.feature.WorldGenMinable
+      @|net\kochma123\machinemagic\world\WorldGen.java|1467|1470|ore|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|ore|0
+      @|net\kochma123\machinemagic\world\WorldGen.java|1472|1476|size|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|size|7
+      @|net\kochma123\machinemagic\world\WorldGen.java|1492|1500|generate|method|net.minecraft.world.gen.feature.WorldGenerator|generate|(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z
+      @|net\kochma123\machinemagic\world\WorldGen.java|1501|1506|world|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|world|1
+      @|net\kochma123\machinemagic\world\WorldGen.java|1508|1514|random|param|net.kochma123.machinemagic.world.WorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|random|2
+   Method End: generateOre(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V
+Class End  : net.kochma123.machinemagic.world.WorldGen
+endProcessing "net\kochma123\machinemagic\world\WorldGen.java"
+

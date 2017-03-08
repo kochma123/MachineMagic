@@ -1,0 +1,89 @@
+Symbol range map extraction starting
+Processing 29 files
+startProcessing "net\kochma123\machinemagic\Main.java" md5: bd585787debcd5d6adfde9b98d68d1d1
+endProcessing "net\kochma123\machinemagic\Main.java"
+
+startProcessing "net\kochma123\machinemagic\block\BlockBase.java" md5: f4384ea41441ba14bf410e2665a46372
+endProcessing "net\kochma123\machinemagic\block\BlockBase.java"
+
+startProcessing "net\kochma123\machinemagic\block\BlockCropCorn.java" md5: 87760de19f3d02244203ee4a96a92027
+endProcessing "net\kochma123\machinemagic\block\BlockCropCorn.java"
+
+startProcessing "net\kochma123\machinemagic\block\BlockOre.java" md5: eec237bedabc8ee40e6ae98bcd557823
+endProcessing "net\kochma123\machinemagic\block\BlockOre.java"
+
+startProcessing "net\kochma123\machinemagic\block\BlockTileEntity.java" md5: aa15b63e24bb7d3d99e235e4b2c5c7e9
+endProcessing "net\kochma123\machinemagic\block\BlockTileEntity.java"
+
+startProcessing "net\kochma123\machinemagic\block\counter\BlockCounter.java" md5: e230e7b1b01c7c3ce77ff283c497dd40
+endProcessing "net\kochma123\machinemagic\block\counter\BlockCounter.java"
+
+startProcessing "net\kochma123\machinemagic\block\counter\TileEntityCounter.java" md5: f6fa90915771019597888ee0e87f755c
+endProcessing "net\kochma123\machinemagic\block\counter\TileEntityCounter.java"
+
+startProcessing "net\kochma123\machinemagic\client\CreativeTab.java" md5: d7ed4dcf9564c6da289adf891e4e82f7
+endProcessing "net\kochma123\machinemagic\client\CreativeTab.java"
+
+startProcessing "net\kochma123\machinemagic\dimension\MyWorldProvider.java" md5: 79cb5f936e7fac17d73a270f1225a820
+endProcessing "net\kochma123\machinemagic\dimension\MyWorldProvider.java"
+
+startProcessing "net\kochma123\machinemagic\handler\BlockHandler.java" md5: 2a9f6d833d393119616a00b95e09b27c
+endProcessing "net\kochma123\machinemagic\handler\BlockHandler.java"
+
+startProcessing "net\kochma123\machinemagic\handler\DimensionHandler.java" md5: ac0d700d1ef6a3e11362e1d0a7af0632
+endProcessing "net\kochma123\machinemagic\handler\DimensionHandler.java"
+
+startProcessing "net\kochma123\machinemagic\handler\ItemHandler.java" md5: ec8cf3ccd5f5b9466ddae0e0c6b75372
+endProcessing "net\kochma123\machinemagic\handler\ItemHandler.java"
+
+startProcessing "net\kochma123\machinemagic\handler\RecipeHandler.java" md5: e20d15b1240378b003053b4119cf19cd
+endProcessing "net\kochma123\machinemagic\handler\RecipeHandler.java"
+
+startProcessing "net\kochma123\machinemagic\handler\WorldProviderDimension.java" md5: 24b739f8c9ec8bd78698bf149220d248
+endProcessing "net\kochma123\machinemagic\handler\WorldProviderDimension.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemArmour.java" md5: 24164db687bb9b8087e05b87d2b7b446
+endProcessing "net\kochma123\machinemagic\item\ItemArmour.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemBase.java" md5: df22ce320a3a97a9d567cb50ebcb2c0b
+endProcessing "net\kochma123\machinemagic\item\ItemBase.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemCorn.java" md5: ffb14b6152b701ae578528b3c414f7a7
+endProcessing "net\kochma123\machinemagic\item\ItemCorn.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemCornSeed.java" md5: d011f0b62fa17a791c560734f73e6516
+endProcessing "net\kochma123\machinemagic\item\ItemCornSeed.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemModelProvider.java" md5: 5f7a320013e595afad7351d40c108f56
+endProcessing "net\kochma123\machinemagic\item\ItemModelProvider.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemOre.java" md5: ae2a22a1a1a1311a2ef6d694fac7445e
+endProcessing "net\kochma123\machinemagic\item\ItemOre.java"
+
+startProcessing "net\kochma123\machinemagic\item\ItemOreDict.java" md5: 438b62ea9782c87fd986291bb5244f1b
+endProcessing "net\kochma123\machinemagic\item\ItemOreDict.java"
+
+startProcessing "net\kochma123\machinemagic\item\tool\ItemAxe.java" md5: 4e47771675246716181aea12ef25ce72
+endProcessing "net\kochma123\machinemagic\item\tool\ItemAxe.java"
+
+startProcessing "net\kochma123\machinemagic\item\tool\ItemHoe.java" md5: 8beb44270836dfef73ebfb2ba4584d15
+endProcessing "net\kochma123\machinemagic\item\tool\ItemHoe.java"
+
+startProcessing "net\kochma123\machinemagic\item\tool\ItemPickaxe.java" md5: 5ae830b559ccc65e4fd028c5b43ce180
+endProcessing "net\kochma123\machinemagic\item\tool\ItemPickaxe.java"
+
+startProcessing "net\kochma123\machinemagic\item\tool\ItemShovel.java" md5: 486b587e0bc7ce7108f1d96d593129ed
+endProcessing "net\kochma123\machinemagic\item\tool\ItemShovel.java"
+
+startProcessing "net\kochma123\machinemagic\item\tool\ItemSword.java" md5: 0368062676dcea6c04ee8a7e0a50ac64
+endProcessing "net\kochma123\machinemagic\item\tool\ItemSword.java"
+
+startProcessing "net\kochma123\machinemagic\proxy\ClientProxy.java" md5: 1b403f0a036a175c3fa72c72c125d2ac
+endProcessing "net\kochma123\machinemagic\proxy\ClientProxy.java"
+
+startProcessing "net\kochma123\machinemagic\proxy\CommonProxy.java" md5: 772148c3910f6df76407df330a851e79
+endProcessing "net\kochma123\machinemagic\proxy\CommonProxy.java"
+
+startProcessing "net\kochma123\machinemagic\world\WorldGen.java" md5: deb7d69c46a52a09a31d5078bc240755
+endProcessing "net\kochma123\machinemagic\world\WorldGen.java"
+
