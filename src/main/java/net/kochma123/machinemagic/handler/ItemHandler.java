@@ -13,8 +13,12 @@ import net.kochma123.machinemagic.item.tool.ItemHoe;
 import net.kochma123.machinemagic.item.tool.ItemPickaxe;
 import net.kochma123.machinemagic.item.tool.ItemShovel;
 import net.kochma123.machinemagic.item.tool.ItemSword;
+import net.minecraft.entity.Entity;
+import net.minecraft.init.Enchantments;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ItemHandler {
@@ -38,7 +42,10 @@ public class ItemHandler {
 	public static ItemArmour copperBoots;
 
 	public static void init() {
-		emeraldPickaxe = register(new ItemPickaxe(Main.emeraldToolMaterial,"emerald_pickaxe"));
+		emeraldPickaxe = register(new ItemPickaxe(Main.emeraldToolMaterial,"emerald_pickaxe"){@Override
+		public void onUpdate(ItemStack stack, World worldIn, Entity entityIn, int itemSlot, boolean isSelected) {
+			stack.addEnchantment(Enchantments.SILK_TOUCH, 1);
+		}});
 		
 		copperHelmet = register(new ItemArmour(Main.copperArmorMaterial,EntityEquipmentSlot.HEAD,"copper_helmet"));
 		copperChestplate = register(new ItemArmour(Main.copperArmorMaterial, EntityEquipmentSlot.CHEST, "copper_chestplate"));
