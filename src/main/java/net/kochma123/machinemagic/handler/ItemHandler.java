@@ -24,7 +24,7 @@ public class ItemHandler {
 	public static ItemCornSeed cornSeed;
 	public static ItemCorn corn;
 	
-	public static ItemSword emeraldSword;
+	public static ItemPickaxe emeraldPickaxe;
 	
 	public static ItemSword copperSword;
 	public static ItemPickaxe copperPickaxe;
@@ -38,7 +38,7 @@ public class ItemHandler {
 	public static ItemArmour copperBoots;
 
 	public static void init() {
-		emeraldSword = register(new ItemSword(Main.emeraldToolMaterial,"emerald_sword"));
+		emeraldPickaxe = register(new ItemPickaxe(Main.emeraldToolMaterial,"emerald_pickaxe"));
 		
 		copperHelmet = register(new ItemArmour(Main.copperArmorMaterial,EntityEquipmentSlot.HEAD,"copper_helmet"));
 		copperChestplate = register(new ItemArmour(Main.copperArmorMaterial, EntityEquipmentSlot.CHEST, "copper_chestplate"));

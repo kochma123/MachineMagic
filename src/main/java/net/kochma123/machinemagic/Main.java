@@ -2,6 +2,7 @@ package net.kochma123.machinemagic;
 
 import net.kochma123.machinemagic.client.CreativeTab;
 import net.kochma123.machinemagic.handler.BlockHandler;
+import net.kochma123.machinemagic.handler.EventHandler;
 import net.kochma123.machinemagic.handler.ItemHandler;
 import net.kochma123.machinemagic.handler.RecipeHandler;
 import net.kochma123.machinemagic.proxy.CommonProxy;
@@ -9,6 +10,7 @@ import net.kochma123.machinemagic.world.WorldGen;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -48,6 +50,7 @@ public class Main {
 	public void init(FMLInitializationEvent event) {
 		System.out.println(MODNAME + " is loading reciepes!");
 		RecipeHandler.init();
+		MinecraftForge.EVENT_BUS.register(new EventHandler());
 	}
 
 	@Mod.EventHandler
