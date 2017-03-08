@@ -41,7 +41,6 @@ public class Main {
 	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println(MODNAME + " is loading!");
 		BlockHandler.init();
-		DimensionHandler.init();
 		ItemHandler.init();
 		GameRegistry.registerWorldGenerator(new WorldGen(), 3);
 	}
