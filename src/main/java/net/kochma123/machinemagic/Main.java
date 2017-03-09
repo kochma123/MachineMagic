@@ -1,5 +1,7 @@
 package net.kochma123.machinemagic;
 
+import java.util.HashMap;
+
 import net.kochma123.machinemagic.client.CreativeTab;
 import net.kochma123.machinemagic.handler.BlockHandler;
 import net.kochma123.machinemagic.handler.EventHandler;
@@ -10,6 +12,7 @@ import net.kochma123.machinemagic.world.WorldGen;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
+import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
@@ -17,6 +20,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartedEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = Main.MODID, name = Main.MODNAME, version = Main.VERSION)
@@ -44,6 +48,12 @@ public class Main {
 		BlockHandler.init();
 		ItemHandler.init();
 		GameRegistry.registerWorldGenerator(new WorldGen(), 3);
+	}
+	
+	@Mod.EventHandler
+	public void fmlLifeCycle(FMLServerStartedEvent event)
+	{
+	    System.out.println("Server started");
 	}
 
 	@Mod.EventHandler
