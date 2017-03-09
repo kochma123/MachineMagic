@@ -18,11 +18,11 @@ public class BlockHandler {
 	public static BlockCropCorn cropCorn;
 	public static BlockCounter counter;
 	
-	public static BlockBase n;
+	public static BlockBase naquadah;
 	
 	public static void init() {
-		n = register(new BlockBase(Material.ROCK, "test"));
-		n.setBlockUnbreakable();
+		naquadah = register(new BlockBase(Material.ROCK, "test"));
+		naquadah.setBlockUnbreakable();
 		cropCorn = register(new BlockCropCorn(), null);
 		oreCopper = register(new BlockOre("ore_copper","oreCopper"));
 		counter = register(new BlockCounter());
